@@ -1,0 +1,7 @@
+﻿"mdfWidth"= 3
+"cellSide"= 180
+"mazeHeight" = 50
+"slitHeight"= 10
+"gripWidth"= 6
+"wallThickness"= 1.5
+"slitWidth" = "wallThickness"
