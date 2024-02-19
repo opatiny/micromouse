@@ -1,0 +1,10 @@
+# Choice of the motors
+
+"If you are a beginner we would suggest you to go with 200–400 RPM. But in general a motor with **600RPM** is fine and it’s definitely fast enough. Also, if you want to either increase or decrease the speed after buying motors, try changing the diameter of the wheels." - https://medium.com/analytics-vidhya/mm-sensors-and-motors-7fa3a870db67
+
+## Links
+
+- Micro Metal Gearmotors with Extended Motor Shafts (good small motors): https://www.pololu.com/category/141/micro-metal-gearmotors-with-extended-motor-shafts?source=post_page-----7fa3a870db67--------------------------------
+- polulu micro gearmotor 12V 650rpm: https://www.pololu.com/product/3050
+- on polulu they have the motors + encoders + wheels and they ship to switzerland!
+- whole kit gearbox + wheel + encoder: https://www.robotshop.com/products/12mm-12v-micro-metal-gearmotor-w-encoder-34mm-wheel-kits-smart-robot-diy?pr_prod_strat=e5_desc&pr_rec_id=f724afa5e&pr_rec_pid=7487474892961&pr_ref_pid=7487503040673&pr_seq=uniform
