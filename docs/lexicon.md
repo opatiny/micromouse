@@ -1,7 +1,9 @@
 # ENglish - French lexicon
 
-| English      | French         |
-| ------------ | -------------- |
-| caster wheel | roue à bille   |
-| gear motor   | moto-réducteur |
-| gearbox      | réducteur      |
+| English            | French                  |
+| ------------------ | ----------------------- |
+| caster wheel       | roue à bille            |
+| gear motor         | moto-réducteur          |
+| gearbox            | réducteur               |
+| rolling resistance | résistance au roulement |
+| efficiency         | rendement               |
