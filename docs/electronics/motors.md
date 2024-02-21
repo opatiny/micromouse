@@ -10,3 +10,5 @@
 - whole kit gearbox + wheel + encoder: https://www.robotshop.com/products/12mm-12v-micro-metal-gearmotor-w-encoder-34mm-wheel-kits-smart-robot-diy?pr_prod_strat=e5_desc&pr_rec_id=f724afa5e&pr_rec_pid=7487474892961&pr_ref_pid=7487503040673&pr_seq=uniform
 - good motor but very big: https://eu.robotshop.com/fr/products/12v-437rpm-3055oz-in-hd-premium-planetary-gearmotor-encoder
 - 25x48mm, 6V, 14mNm (dunno what speed tho): https://eu.robotshop.com/fr/products/pololu-lp-6v-2oz-in-motor-with-48-cpr-encoder-no-gearbox
+- 6V, 500rpm 12mNm (used on many uk micromice): https://thepihut.com/products/micro-metal-gearmotor-30-1
+- great motor with very precise **encoder** 6V, 530rpm, 20mNm: https://thepihut.com/products/micro-metal-geared-motor-w-encoder-6v-530rpm-30-1

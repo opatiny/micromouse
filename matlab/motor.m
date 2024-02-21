@@ -14,8 +14,8 @@ T = 5; % s, time to run the maze
 cellLength = 0.18; % m
 vm = nbCells * cellLength/T % m/s, average speed
 
-
-r = 0.022; % m , wheel radius
+d = 0.032; % m , wheel diameter
+r = d/2;
 
 p = 2*r*pi; % perimeter
 
@@ -62,5 +62,7 @@ Pmax_fr = omega*M_mot_max
 % distance to reach max speed
 deltax = 0.5; % m
 vf = sqrt(2*a_max*deltax)
+
+omega_nom = 200; % rpm, nominal motor speed
 
 vlim = 145*2*pi*r/60
