@@ -12,3 +12,7 @@
 - 25x48mm, 6V, 14mNm (dunno what speed tho): https://eu.robotshop.com/fr/products/pololu-lp-6v-2oz-in-motor-with-48-cpr-encoder-no-gearbox
 - 6V, 500rpm 12mNm (used on many uk micromice): https://thepihut.com/products/micro-metal-gearmotor-30-1
 - great motor with very precise **encoder** 6V, 530rpm, 20mNm: https://thepihut.com/products/micro-metal-geared-motor-w-encoder-6v-530rpm-30-1
+- small faulhaber motors (look for gearbox): https://www.faulhaber.com/de/produkte/serie/1717sr/
+- online tool to configurate motors combinations faulhaber -> a good combination
+  - 500rpm, 10mNm all possibilities: https://www.faulhaber.com/de/drive-calculator/fdc/show/375542/
+  - 500rpm, 10mNm, 7.7V, encoders directly integrated in the motor (?): https://www.faulhaber.com/en/drive-calculator/fdc/showDetail/375542/36718-2174/

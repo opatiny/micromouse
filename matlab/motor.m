@@ -63,6 +63,6 @@ Pmax_fr = omega*M_mot_max
 deltax = 0.5; % m
 vf = sqrt(2*a_max*deltax)
 
-omega_nom = 200; % rpm, nominal motor speed
+omega_nom = 1000; % rpm, nominal motor speed
 
-vlim = 145*2*pi*r/60
+vlim = omega_nom*2*pi*r/60

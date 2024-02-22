@@ -4,6 +4,12 @@ We want relatively thin wheels with a rubber tires to increase the friction coef
 
 We estimate that the ideal wheels dimension are around **25-30mm diameter and 10mm thick**. Smaller wheels allow for a better reactivity of the robot, but the risk is that the maximal robot speed is smaller and can be reached quickly, hence limiting the robot speed.
 
+## 3D printing wheels
+
+Can we 3D print the tires? If yes, what material should we use? -> paper exactly on this topic: Surface friction of rapidly prototyped wheels from 3D-printed thermoplastic elastomers
+
+Quote: "NinjaFlex was the softest material tested, hence the one most difficult to print, and only one of the three 3D-printers used managed to produce a good quality part. This was also the material providing the highest friction coefficient for all wheel designs."
+
 ## Links
 
 - https://www.jsumo.com/wheels
