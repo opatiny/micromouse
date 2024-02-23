@@ -29,3 +29,4 @@ This approach is definitely used in some mice:
 - ready to buy motor controllers: https://eu.robotshop.com/fr/collections/motor-controllers
 - I2C motor controller for 1 motor up to 2.5A speed or position controller closed loop: https://www.pololu.com/product/3142
 - motors control with simple P regulator: https://ieee.berkeley.edu/micromouse-lab-5/
+- micromouse online motors control: https://micromouseonline.com/2011/05/15/designing-the-motor-controller/
