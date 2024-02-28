@@ -33,6 +33,10 @@ Steps:
 - I: integral term, corrects past error
 - D: differential term, corrects future error
 
+## Phase lead controller: an alternative to PID or PD
+
+- https://micromouseonline.com/2011/05/16/designing-a-phase-lead-controller/
+
 ## Links
 
 - visual explanation of PID regulator: https://www.youtube.com/watch?v=4Y7zG48uHRo
