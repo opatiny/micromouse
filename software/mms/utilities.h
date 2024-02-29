@@ -14,6 +14,12 @@ typedef struct pos {
     int theta; // can only be 0:'N', 1:'E', 2:'S', 3:'O'
 } Pos;
 
+typedef struct sensors {
+    uint8_t left;
+    uint8_t front;
+    uint8_t right;
+} Sensors;
+
 // TYPES
 typedef uint8_t Cell[NB_WALLS]; // walls in order NESW
 typedef uint8_t Maze[MAZE_HEIGHT][MAZE_WIDTH][NB_WALLS];
@@ -29,3 +35,4 @@ void turn(Pos* position, char turn);
 int getSquaredDistance(Point p1, Point p2);
 
 void initMaze(Maze maze, uint8_t width, uint8_t height);
+void updateCellWalls(Maze maze, Pos pos, Sensors sensors);

@@ -31,3 +31,7 @@ void API_clearAllText();
 
 int API_wasReset();
 void API_ackReset();
+
+// CUSTOM FUNCTIONS
+void updateSensors(Sensors* sensors);
+void setSensedWalls(Maze maze, Point point);

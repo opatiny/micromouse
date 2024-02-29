@@ -120,3 +120,33 @@ int API_wasReset() {
 void API_ackReset() {
     getAck("ackReset");
 }
+
+// CUSTOM FUNCTIONS
+/**
+ * Read the values of the three sensors at the current cell
+*/
+void updateSensors(Sensors* sensors) {
+    sensors->left = API_wallLeft();
+    sensors->front = API_wallFront();
+    sensors->right = API_wallRight();
+}
+
+/**
+ * Highlight detected walls
+*/
+void setSensedWalls(Maze maze, Point point) {
+    Cell currentCell = maze[point.y][point.x];
+
+    if(currentCell[0]) {
+        API_setWall(point.x, point.y, 'n');
+    }
+    if(currentCell[1]) {
+        API_setWall(point.x, point.y, 'e');
+    }
+     if(currentCell[2]) {
+        API_setWall(point.x, point.y, 's');
+    }
+    if(currentCell[3]) {
+        API_setWall(point.x, point.y, 'w');
+    }
+}

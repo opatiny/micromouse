@@ -96,6 +96,26 @@ void initMaze(Maze maze, uint8_t width, uint8_t height) {
     }
 }
 
-void updateCellWalls(Maze maze, uint8_t x, uint8_t y, Cell values) {
+void updateCellWalls(Maze maze, Pos pos, Sensors sensors) {
+    Cell currentCell = maze[pos.point.y][pos.point.x];
 
+    uint8_t leftIndex = (3 + pos.theta)%4;
+    uint8_t frontIndex = pos.theta;
+    uint8_t rightIndex = (1 + pos.theta)%4;
+
+    if(sensors.left) {
+        currentCell[leftIndex] = 1;
+    } else {
+        currentCell[leftIndex] = 0;
+    }
+    if(sensors.front) {
+        currentCell[frontIndex] = 1;
+    } else {
+        currentCell[frontIndex] = 0;
+    }
+    if(sensors.right) {
+        currentCell[rightIndex] = 1;
+    } else {
+        currentCell[rightIndex] = 0;
+    }
 }

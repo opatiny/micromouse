@@ -14,6 +14,11 @@ int main(int argc, char* argv[]) {
     pos.point.y = 0;
     pos.theta = 0;
 
+    Sensors sensors;
+    sensors.left = 0;
+    sensors.front = 0;
+    sensors.right = 0;
+
     uint8_t width = API_mazeWidth();
     uint8_t height = API_mazeHeight();
 
@@ -30,8 +35,9 @@ int main(int argc, char* argv[]) {
     printPosition(pos);
 
     while (1) {
-        Cell currentCell = {1,1,1,1};
-
+        updateSensors(&sensors);
+        updateCellWalls(maze, pos, sensors);
+        setSensedWalls(maze, pos.point);
 
         if (!API_wallLeft()) {
             API_turnLeft(&pos);
