@@ -11,5 +11,4 @@ What do we want on our mouse?
 - 5x distance sensors (ToF?)
 - voltage regulator to convert battery voltage to 3.3V for microcontroller and sensors
 - battery (9V or 7.4V?)
-
-
+- Reset button for MCU

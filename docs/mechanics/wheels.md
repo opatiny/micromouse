@@ -10,6 +10,11 @@ Can we 3D print the tires? If yes, what material should we use? -> paper exactly
 
 Quote: "NinjaFlex was the softest material tested, hence the one most difficult to print, and only one of the three 3D-printers used managed to produce a good quality part. This was also the material providing the highest friction coefficient for all wheel designs."
 
+## Influence of tires on performance
+
+- http://micromouseusa.com/?p=1111
+- https://micromouseonline.com/2014/05/25/travelling-bumpy-road-micromouse/
+
 ## Links
 
 - https://www.jsumo.com/wheels

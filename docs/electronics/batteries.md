@@ -2,6 +2,8 @@
 
 The power supply of the micromouse is a really important aspect. We need to be able to deliver enough energy in a short time lapse in order to ensure good acceleration. We need relatively high power for the motors (with a higher voltage: 6-12V) and a low voltage for the microcontrollers and sensors (3.3V). We will therefore need a voltage regulator circuit.
 
+- should we add a voltage meter to check the battery voltage?
+
 # Links
 
 - 7.4V, 700mAh, 55g, Li-Ion battery: https://www.brack.ch/carrera-rc-rc-akku-li-ion-700-mah-7-4-v-222009
