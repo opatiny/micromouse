@@ -13,8 +13,8 @@ int main(int argc, char* argv[]) {
     API_setText(0, 0, "S");
 
     Pos pos;
-    pos.x = 0;
-    pos.y = 0;
+    pos.point.x = 0;
+    pos.point.y = 0;
     pos.theta = 0;
 
     log("Running...");

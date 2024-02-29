@@ -1,23 +1,33 @@
 #include <stdio.h>
 
 #include "API.h"
+#include "constants.h"
 #include "utilities.h"
 
-void log(char* text) {
-    fprintf(stderr, "%s\n", text);
-    fflush(stderr);
-}
 
 int main(int argc, char* argv[]) {
     API_setColor(0, 0, 'G');
     API_setText(0, 0, "S");
 
     Pos pos;
-    pos.x = 0;
-    pos.y = 0;
+    pos.point.x = 0;
+    pos.point.y = 0;
     pos.theta = 0;
 
-    log("Running...");
+    int width = API_mazeWidth();
+    int height = API_mazeHeight();
+
+    if (width != MAZE_WIDTH || height != MAZE_HEIGHT) {
+        print("Predefined maze size doesn't match loaded maze.");
+    }
+
+    Maze maze;
+
+    initMaze(maze, width, height);
+
+    printMazeCell(maze, 0, 0);
+
+    print("Running...");
 
     printPosition(pos);
 
