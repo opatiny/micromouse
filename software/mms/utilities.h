@@ -15,7 +15,8 @@ typedef struct pos {
 } Pos;
 
 // TYPES
-typedef uint8_t Maze[MAZE_HEIGHT][MAZE_WIDTH][4];
+typedef uint8_t Cell[NB_WALLS]; // walls in order NESW
+typedef uint8_t Maze[MAZE_HEIGHT][MAZE_WIDTH][NB_WALLS];
 
 // FUNCTIONS DECLARATIONS
 void print(char* text);
@@ -27,4 +28,4 @@ void turn(Pos* position, char turn);
 
 int getSquaredDistance(Point p1, Point p2);
 
-void initMaze(Maze maze, int width, int height);
+void initMaze(Maze maze, uint8_t width, uint8_t height);

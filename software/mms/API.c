@@ -1,11 +1,13 @@
 /**
- * API downloaded from the mms-c repository by mackorone
+ * API downloaded from the mms-c repository by mackorone and modified 
  * https://github.com/mackorone/mms-c?tab=readme-ov-file
 */
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
+#include "utilities.h"
 
 #define BUFFER_SIZE 32
 
@@ -56,15 +58,18 @@ int API_wallLeft() {
     return getBoolean("wallLeft");
 }
 
-int API_moveForward() {
+int API_moveForward(Pos* pos) {
+    move(pos, 1);
     return getAck("moveForward");
 }
 
-void API_turnRight() {
+void API_turnRight(Pos* pos) {
+    turn(pos, 'R');
     getAck("turnRight");
 }
 
-void API_turnLeft() {
+void API_turnLeft(Pos * pos) {
+    turn(pos, 'L');
     getAck("turnLeft");
 }
 

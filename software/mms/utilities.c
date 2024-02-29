@@ -7,7 +7,7 @@
 
 // CONSTANTS
 int maxSquaredDistance = 256; // distance always bigger that distance to center
-char orientations[5] = {'N','E','S','W', '\0'};
+char orientations[5] = {'N','E','S','W'};
 
 // DEBUG FUNCTIONS
 void print(char* text) {
@@ -20,13 +20,16 @@ void printPosition(Pos position) {
 }
 
 void printMazeCell(Maze maze, int x, int y) {
-    for (int i = 0; i<4; i++) {
-    fprintf(stderr, "%i", maze[y][x][i]);
+    for (int i = 0; i< NB_WALLS; i++) {
+    fprintf(stderr, "%i ", maze[y][x][i]);
     }
     fprintf(stderr, "\n");
 }
 
 // KEEP TRACK OF CURRENT POS
+/**
+ * Update robot position after forward movement of nbCells cells.
+ */
 void move(Pos* position, int nbCells) {
     switch (position->theta) {
         case 0: // N
@@ -47,6 +50,11 @@ void move(Pos* position, int nbCells) {
     }
 }
 
+/**
+ * Update robot position after turn.
+ * turn: can be left 'L' or right 'R'
+ */
+
 void turn(Pos* position, char turn) {
     int tmp = position->theta;
     switch (turn) {
@@ -65,20 +73,29 @@ void turn(Pos* position, char turn) {
 }
 
 // POINTS
+/**
+ * Get squared distance between two cells.
+*/
 int getSquaredDistance(Point p1, Point p2) {
     return pow(p1.x - p2.x, 2) + pow(p1.x - p2.x, 2);
 }
 
 // MAZE
+
 /**
- * Fill maze with -1 to tell we did not visit these cells yet.
+ * Fill maze with 2 to tell we did not visit these cells yet.
+ * Visited cells will be filled with 1 or 0 depending on presence of walls.
 */
-void initMaze(Maze maze, int width, int height) {
-    for (int h = 0; h < height; h++) {
-        for (int w = 0; w < width; w++) {
-            for (int i = 0; i  <4; i++) {
-                maze[h][w][i] = -1;
+void initMaze(Maze maze, uint8_t width, uint8_t height) {
+    for (uint8_t h = 0; h < height; h++) {
+        for (uint8_t w = 0; w < width; w++) {
+            for (uint8_t i = 0; i  < NB_WALLS; i++) {
+                maze[h][w][i] = 2;
             }
         }
     }
+}
+
+void updateCellWalls(Maze maze, uint8_t x, uint8_t y, Cell values) {
+
 }

@@ -14,34 +14,33 @@ int main(int argc, char* argv[]) {
     pos.point.y = 0;
     pos.theta = 0;
 
-    int width = API_mazeWidth();
-    int height = API_mazeHeight();
+    uint8_t width = API_mazeWidth();
+    uint8_t height = API_mazeHeight();
 
     if (width != MAZE_WIDTH || height != MAZE_HEIGHT) {
-        print("Predefined maze size doesn't match loaded maze.");
+        print("Error: Predefined maze size doesn't match loaded maze.");
     }
 
     Maze maze;
 
     initMaze(maze, width, height);
 
-    printMazeCell(maze, 0, 0);
-
     print("Running...");
 
     printPosition(pos);
 
     while (1) {
+        Cell currentCell = {1,1,1,1};
+
+
         if (!API_wallLeft()) {
-            API_turnLeft();
-            turn(&pos, 'L');
+            API_turnLeft(&pos);
         }
         while (API_wallFront()) {
-            API_turnRight();
-            turn(&pos, 'R');
+            API_turnRight(&pos);
         }
-        API_moveForward();
-        move(&pos, 1);
+        API_moveForward(&pos);
+
         printPosition(pos);
     }
 }
