@@ -38,6 +38,7 @@ int main(int argc, char* argv[]) {
         updateSensors(&sensors);
         updateCellWalls(maze, pos, sensors);
         setSensedWalls(maze, pos.point);
+        API_setText(pos.point.x, pos.point.y, "x");
 
         if (!API_wallLeft()) {
             API_turnLeft(&pos);

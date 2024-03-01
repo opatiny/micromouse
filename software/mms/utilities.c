@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#include <stdbool.h>
 
 #include "API.h"
 #include "utilities.h"
@@ -96,26 +97,36 @@ void initMaze(Maze maze, uint8_t width, uint8_t height) {
     }
 }
 
+/**
+ * Update the current cell walls in the maze 3D array.
+*/
 void updateCellWalls(Maze maze, Pos pos, Sensors sensors) {
-    Cell currentCell = maze[pos.point.y][pos.point.x];
+
+    Cell* currentCell = &maze[pos.point.y][pos.point.x];
 
     uint8_t leftIndex = (3 + pos.theta)%4;
     uint8_t frontIndex = pos.theta;
     uint8_t rightIndex = (1 + pos.theta)%4;
+    uint8_t backIndex = (2 + pos.theta)%4;
 
     if(sensors.left) {
-        currentCell[leftIndex] = 1;
+         *currentCell[leftIndex] = 1;
     } else {
-        currentCell[leftIndex] = 0;
+         *currentCell[leftIndex] = 0;
     }
     if(sensors.front) {
-        currentCell[frontIndex] = 1;
+        *currentCell[frontIndex] = 1;
     } else {
-        currentCell[frontIndex] = 0;
+        *currentCell[frontIndex] = 0;
     }
     if(sensors.right) {
-        currentCell[rightIndex] = 1;
+        *currentCell[rightIndex] = 1;
     } else {
-        currentCell[rightIndex] = 0;
+        *currentCell[rightIndex] = 0;
     }
+    *currentCell[backIndex] = 0;
+}
+
+bool isIntersection(Maze maze, Point point) {
+
 }

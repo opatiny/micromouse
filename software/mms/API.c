@@ -135,18 +135,18 @@ void updateSensors(Sensors* sensors) {
  * Highlight detected walls
 */
 void setSensedWalls(Maze maze, Point point) {
-    Cell currentCell = maze[point.y][point.x];
+  Cell *currentCell = &maze[point.y][point.x];
 
-    if(currentCell[0]) {
-        API_setWall(point.x, point.y, 'n');
-    }
-    if(currentCell[1]) {
-        API_setWall(point.x, point.y, 'e');
-    }
-     if(currentCell[2]) {
-        API_setWall(point.x, point.y, 's');
-    }
-    if(currentCell[3]) {
-        API_setWall(point.x, point.y, 'w');
-    }
+  if(*currentCell[0]) {
+      API_setWall(point.x, point.y, 'n');
+  }
+  if(*currentCell[1]) {
+      API_setWall(point.x, point.y, 'e');
+  }
+   if(*currentCell[2]) {
+      API_setWall(point.x, point.y, 's');
+  }
+  if(*currentCell[3]) {
+      API_setWall(point.x, point.y, 'w');
+  }
 }
