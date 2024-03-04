@@ -9,15 +9,9 @@ int main(int argc, char* argv[]) {
     API_setColor(0, 0, 'G');
     API_setText(0, 0, "S");
 
-    Pos pos;
-    pos.point.x = 0;
-    pos.point.y = 0;
-    pos.theta = 0;
+    Pos pos = {0,0,0};
 
-    Sensors sensors;
-    sensors.left = 0;
-    sensors.front = 0;
-    sensors.right = 0;
+    Sensors sensors = {0,0,0};
 
     uint8_t width = API_mazeWidth();
     uint8_t height = API_mazeHeight();
@@ -27,18 +21,24 @@ int main(int argc, char* argv[]) {
     }
 
     Maze maze;
-
-    initMaze(maze, width, height);
+    initMaze(maze);
 
     print("Running...");
 
-    printPosition(pos);
+    // printPosition(pos);
 
     while (1) {
         updateSensors(&sensors);
+        printSensors(sensors);
+        printMazeCell(maze, pos.point);
         updateCellWalls(maze, pos, sensors);
+        printMazeCell(maze, pos.point);
         setSensedWalls(maze, pos.point);
-        API_setText(pos.point.x, pos.point.y, "x");
+        if(isIntersection(maze, pos.point)) {
+            API_setText(pos.point.x, pos.point.y, "I");
+        } else {
+            API_setText(pos.point.x, pos.point.y, "x");
+        }
 
         if (!API_wallLeft()) {
             API_turnLeft(&pos);
@@ -48,7 +48,7 @@ int main(int argc, char* argv[]) {
         }
         API_moveForward(&pos);
 
-        printPosition(pos);
+        // printPosition(pos);
     }
 }
 

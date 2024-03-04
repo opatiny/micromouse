@@ -123,7 +123,7 @@ void API_ackReset() {
 
 // CUSTOM FUNCTIONS
 /**
- * Read the values of the three sensors at the current cell
+ * Read the values of the three sensors at the current cell.
 */
 void updateSensors(Sensors* sensors) {
     sensors->left = API_wallLeft();
@@ -132,7 +132,7 @@ void updateSensors(Sensors* sensors) {
 }
 
 /**
- * Highlight detected walls
+ * Highlight detected walls.
 */
 void setSensedWalls(Maze maze, Point point) {
   Cell *currentCell = &maze[point.y][point.x];

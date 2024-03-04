@@ -1,5 +1,6 @@
 #pragma once
 #include <stdint.h>
+#include <stdbool.h>
 
 #include "constants.h"
 
@@ -20,19 +21,32 @@ typedef struct sensors {
     uint8_t right;
 } Sensors;
 
+enum WallState {
+    NO_WALL,
+    WALL,
+    UNKNOWN
+};
+
 // TYPES
 typedef uint8_t Cell[NB_WALLS]; // walls in order NESW
+/**
+ * Maze contains the data of the wall detected by the mouse.
+ * The data contains the rows of the maze from bottom to top (positive y)
+ * and then the column from left to right (positive x).
+*/
 typedef uint8_t Maze[MAZE_HEIGHT][MAZE_WIDTH][NB_WALLS];
 
 // FUNCTIONS DECLARATIONS
 void print(char* text);
 void printPosition(Pos position);
-void printMazeCell(Maze maze, int x, int y);
+void printMazeCell(Maze maze, Point point);
+void printSensors(Sensors sensors);
 
 void move(Pos* position, int nbCells);
 void turn(Pos* position, char turn);
 
 int getSquaredDistance(Point p1, Point p2);
 
-void initMaze(Maze maze, uint8_t width, uint8_t height);
+void initMaze(Maze maze);
 void updateCellWalls(Maze maze, Pos pos, Sensors sensors);
+bool isIntersection(Maze maze, Point point);
