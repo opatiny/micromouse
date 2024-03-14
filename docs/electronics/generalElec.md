@@ -23,9 +23,11 @@ The device pins have the following functions:
 - Arduino library: Adafruit VL53L1X
 - range: ~30 to 4000 mm -> the smallest distance is not great for our use case...
 - timing budget: from 20 to 1000ms. Be careful, if the timing budget is too short, the whole MCU reboots. It basically defines how long a measurement can be.
-  "140 ms is the timing budget which allows the maximum distance of 4 m (in the dark on a white chart) to be reached under Long distance mode Increasing the timing budget increases the maximum distance the device can range and improves the repeatability error. However, average power consumption augments accordingly." - https://xod.io/libs/wayland/vl53l1x-time-of-flight/set-measurement-timing-budget/#:~:text=The%20VL53L1X%20timing%20budget%20can,ms%20up%20to%201000%20ms.&text=20%20ms%20is%20the%20minimum,only%20in%20Short%20distance%20mode.&text=33%20ms%20is%20the%20minimum,work%20for%20all%20distance%20modes.
+  "140 ms is the timing budget which allows the maximum distance of 4 m (in the dark on a white chart) to be reached under Long distance mode Increasing the timing budget increases the maximum distance the device can range and improves the repeatability error. However, average power consumption augments accordingly." - https://xod.io/
+- We can't change the I2C addresses permanently on the VL53L1X!!! https://community.st.com/t5/mems-sensors/vl53l1x-device-address-storage/td-p/355584
 
 ### Links
 
 - adafruit guide: https://learn.adafruit.com/adafruit-vl53l1x?view=all
 - https://github.com/pololu/vl53l1x-arduino?utm_source=platformio&utm_medium=piohome
+- timing budget reference: https://xod.io/libs/wayland/vl53l1x-time-of-flight/set-measurement-timing-budget/#:~:text=The%20VL53L1X%20timing%20budget%20can,ms%20up%20to%201000%20ms.&text=20%20ms%20is%20the%20minimum,only%20in%20Short%20distance%20mode.&text=33%20ms%20is%20the%20minimum,work%20for%20all%20distance%20modes.

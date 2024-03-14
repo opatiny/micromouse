@@ -12,7 +12,7 @@ well.
 #include <Wire.h>
 #include <VL53L1X.h>
 
-#define ADDRESS 0x30
+#define ADDRESS 0x35
 
 VL53L1X sensor;
 
@@ -24,7 +24,8 @@ void setup()
   Wire.begin();
 
   sensor.setAddress(ADDRESS);
-  Serial.println("New address set");
+  Serial.print("New address set to 0x");
+  Serial.println(sensor.getAddress(), HEX);
   sensor.startContinuous(50);
   Serial.println("Continuous sensing");
 }
