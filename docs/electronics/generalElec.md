@@ -12,3 +12,20 @@ What do we want on our mouse?
 - voltage regulator to convert battery voltage to 3.3V for microcontroller and sensors
 - battery (9V or 7.4V?)
 - Reset button for MCU
+
+## Distance sensors: VL53L1X
+
+The device pins have the following functions:
+[!](../datasheets/images/vl53l1x-pin-description.png)
+
+- The `XSHUT` pin has to be pulled up for the device to be active.
+- Device default address is 0x29 (41)
+- Arduino library: Adafruit VL53L1X
+- range: ~30 to 4000 mm -> the smallest distance is not great for our use case...
+- timing budget: from 20 to 1000ms. Be careful, if the timing budget is too short, the whole MCU reboots. It basically defines how long a measurement can be.
+  "140 ms is the timing budget which allows the maximum distance of 4 m (in the dark on a white chart) to be reached under Long distance mode Increasing the timing budget increases the maximum distance the device can range and improves the repeatability error. However, average power consumption augments accordingly." - https://xod.io/libs/wayland/vl53l1x-time-of-flight/set-measurement-timing-budget/#:~:text=The%20VL53L1X%20timing%20budget%20can,ms%20up%20to%201000%20ms.&text=20%20ms%20is%20the%20minimum,only%20in%20Short%20distance%20mode.&text=33%20ms%20is%20the%20minimum,work%20for%20all%20distance%20modes.
+
+### Links
+
+- adafruit guide: https://learn.adafruit.com/adafruit-vl53l1x?view=all
+- https://github.com/pololu/vl53l1x-arduino?utm_source=platformio&utm_medium=piohome
