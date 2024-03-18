@@ -3,13 +3,20 @@
 ## Polulu
 
 - 4x motors (I bought the slightly less powerful 12V ones): https://thepihut.com/products/micro-metal-geared-motor-w-encoder-6v-530rpm-30-1
-- 3x 7.4V batteries: https://www.accuswiss.ch/product_info.php?info=p26815_Liter---USB-8-4V-1200---9V-Block---6F22---7-4-Volt-1200mAh-Li-Ion--Micro-USB.html
 - 2x dual motor drivers: https://www.pololu.com/product/2130
 - 2x set of silicon wheels 32mm diameter: https://www.pololu.com/product/1087/specs
 - 2x speed controller?: https://www.pololu.com/product/3142
 
+## Tiny electonics
+
+- distance sensors: https://www.tinytronics.nl/en/sensors/distance/vl53l1x-time-of-flight-tof-distance-sensor
+
+## Galaxus
+
+- 9V 680maH rechargable batteries: https://www.galaxus.de/en/s1/product/accucell-rechargeable-battery-9v-block-6lr61-6f22-9v-650-mah-batteries-13014516
+- 9V battery charger:
+  https://www.galaxus.de/en/s1/product/voltcraft-p9-4-9v-chargers-without-battery-rechargeable-batteries-chargers-8453199
+
 ## other
 
-- battery connector/holder
-- 7.4 or 9V batteries?
-- distance sensors: 
+- jst sh 6 pins cables and connectors (for encoders)

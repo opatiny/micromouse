@@ -8,3 +8,14 @@
 - planning v1
 - recapitulative state of the art table
 - mms discovery and first test
+- choice of MCU: esp32c3 and attribution of all pins
+- configuration of programming environment of the esp32c3 on the mac
+  - test of serial communication
+  - first i2c device (accelerometer)
+  - configure wifi
+
+## March
+
+### 04 - 10
+
+- ordered distance sensors on tinyelectronics.nl
