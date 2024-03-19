@@ -24,6 +24,7 @@
 
 - received distance sensors
 - started distance sensing thread and tried modifying the sensors I2C addresses
+- realized that we cannot change the addresses permanently -> we'll have to do it every time the device is powered -> not enough pins -> need IO expander ove I2C
 
 ### 15 - 22
 
