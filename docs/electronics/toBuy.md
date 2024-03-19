@@ -5,9 +5,11 @@
 - 4x motors (I bought the slightly less powerful 12V ones): https://thepihut.com/products/micro-metal-geared-motor-w-encoder-6v-530rpm-30-1
 - 2x dual motor drivers: https://www.pololu.com/product/2130
 - 2x set of silicon wheels 32mm diameter: https://www.pololu.com/product/1087/specs
-- 2x speed controller?: https://www.pololu.com/product/3142
+- 2x speed controller?: https://www.pololu.com/product/3142 -> USELESS!
 
 ## Tiny electonics
+
+11.03.2024
 
 - distance sensors: https://www.tinytronics.nl/en/sensors/distance/vl53l1x-time-of-flight-tof-distance-sensor
 
@@ -26,6 +28,4 @@
 ## other
 
 - jst sh 6 pins cables and connectors (for encoders)
-- lipo batteries
-- lipo battery charger
 - I2C to GPIO expander
