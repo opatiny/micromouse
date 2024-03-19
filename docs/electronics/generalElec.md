@@ -25,6 +25,7 @@ The device pins have the following functions:
 - timing budget: from 20 to 1000ms. Be careful, if the timing budget is too short, the whole MCU reboots. It basically defines how long a measurement can be.
   "140 ms is the timing budget which allows the maximum distance of 4 m (in the dark on a white chart) to be reached under Long distance mode Increasing the timing budget increases the maximum distance the device can range and improves the repeatability error. However, average power consumption augments accordingly." - https://xod.io/
 - We can't change the I2C addresses permanently on the VL53L1X!!! https://community.st.com/t5/mems-sensors/vl53l1x-device-address-storage/td-p/355584
+- we'll therefore need an I2C to GPIO module because otherwise we don't have enough pins on our MCU
 
 ### Links
 

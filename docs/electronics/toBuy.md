@@ -11,12 +11,21 @@
 
 - distance sensors: https://www.tinytronics.nl/en/sensors/distance/vl53l1x-time-of-flight-tof-distance-sensor
 
-## Galaxus
+## Amazon
 
-- 9V 680maH rechargable batteries: https://www.galaxus.de/en/s1/product/accucell-rechargeable-battery-9v-block-6lr61-6f22-9v-650-mah-batteries-13014516
-- 9V battery charger:
-  https://www.galaxus.de/en/s1/product/voltcraft-p9-4-9v-chargers-without-battery-rechargeable-batteries-chargers-8453199
+19.03.2024
+
+- Lipo battery charger: ISDT 608AC Battgo Lipo Battery Charger
+
+## Reichelt
+
+19.03.2024
+
+- 4x lipo battery: https://www.reichelt.de/akku-pack-li-polymer-7-4-v-1100-mah-rd-xt-1100-s2-p336956.html?&trstct=pol_8&nbc=1
 
 ## other
 
 - jst sh 6 pins cables and connectors (for encoders)
+- lipo batteries
+- lipo battery charger
+- I2C to GPIO expander

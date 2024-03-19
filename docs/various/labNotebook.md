@@ -19,3 +19,13 @@
 ### 04 - 10
 
 - ordered distance sensors on tinyelectronics.nl
+
+### 08 - 14
+
+- received distance sensors
+- started distance sensing thread and tried modifying the sensors I2C addresses
+
+### 15 - 22
+
+- try to find suitable battery
+- order lipo batteries as well as charger
