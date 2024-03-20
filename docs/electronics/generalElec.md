@@ -27,6 +27,11 @@ The device pins have the following functions:
 - We can't change the I2C addresses permanently on the VL53L1X!!! https://community.st.com/t5/mems-sensors/vl53l1x-device-address-storage/td-p/355584
 - we'll therefore need an I2C to GPIO module because otherwise we don't have enough pins on our MCU
 
+## Buzzer
+
+We'll need PWM to get different notes with the buzzer.
+"All GPIO pins on XIAO ESP32S3 support PWM output. Therefore, you can use any pin to output PWM to adjust the brightness of lights, control servos, and other functions." - https://wiki.seeedstudio.com/xiao_esp32s3_pin_multiplexing/
+
 ### Links
 
 - adafruit guide: https://learn.adafruit.com/adafruit-vl53l1x?view=all
