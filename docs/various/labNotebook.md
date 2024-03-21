@@ -30,3 +30,4 @@
 
 - try to find suitable battery
 - order lipo batteries as well as charger
+- made first motor tests with motor driver -> can make motor spin at various speeds

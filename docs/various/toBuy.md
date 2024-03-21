@@ -27,5 +27,6 @@
 
 ## other
 
-- jst sh 6 pins cables and connectors (for encoders)
+- jst sh 6 pins cables female-female, connectors (for encoders) and board with big pins
 - I2C to GPIO expander
+- XT60 connectors

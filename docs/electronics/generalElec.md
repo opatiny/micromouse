@@ -32,6 +32,19 @@ The device pins have the following functions:
 We'll need PWM to get different notes with the buzzer.
 "All GPIO pins on XIAO ESP32S3 support PWM output. Therefore, you can use any pin to output PWM to adjust the brightness of lights, control servos, and other functions." - https://wiki.seeedstudio.com/xiao_esp32s3_pin_multiplexing/
 
+The buzzer takes a frequency of typically 400kHz, how do we generate this?
+
+## Debug LEDs
+
+We want to put a bunch of debug LEDs in the circuit.
+
+- high power (from battery)
+- 3.3V at voltage regulator output
+
+## Battery voltage measurement
+
+We want to add a voltage divider on the battery in order to measure the battery voltage and hence know when the battery is discharged.
+
 ### Links
 
 - adafruit guide: https://learn.adafruit.com/adafruit-vl53l1x?view=all
