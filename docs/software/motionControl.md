@@ -1,6 +1,6 @@
 # Control of the mouse movement
 
-THey are many challenges we have to face:
+They are many challenges we have to face:
 
 - drive straight: be able to remain in the center of a corridor
 - turn left and right to navigate through the maze
