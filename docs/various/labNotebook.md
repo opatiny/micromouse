@@ -31,3 +31,5 @@
 - try to find suitable battery
 - order lipo batteries as well as charger
 - made first motor tests with motor driver -> can make motor spin at various speeds
+- use IO pins of the MCU to enhance distance sensors threads and have 2 sensors work in parallel
+- after discussion, realized that it is probably easier to change the MCU board instead of adding IO expander. We're considering the Espressif ESP32-S3 board: the code will be the same, but we'll have more GPIO
