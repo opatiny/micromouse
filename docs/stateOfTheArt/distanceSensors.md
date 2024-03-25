@@ -23,11 +23,20 @@ Other:
 
 ## ToF
 
-| Pro                               | Cons                                      |
-| --------------------------------- | ----------------------------------------- |
+| Pro                               | Cons                                      | ≤   |
+| --------------------------------- | ----------------------------------------- | --- |
 | Readings consistent               | Expensive (2-4$)                          |
 | Easy I2C interface                | Large separate board -> additional cables |
 | No influence of surface and angle | Relatively slow (~16ms update rate)       |
+
+## Comparison of the different VL sensors
+
+I bought the VL53L1x but looking at this comparison table, I should have taken the Vl6180X, which has smaller minimum range, smaller max range and is cheaper....
+
+- the different sensors have the same footprint
+- the only advantage of the VL53L1X would be that it has a smaller field of view (min 15°)
+
+https://www.pololu.com/product/2490#comparison
 
 # Links
 

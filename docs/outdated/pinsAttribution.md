@@ -1,4 +1,4 @@
-# Pins attribution of the ESP32-S3
+# Pins attribution of the ESP32-S3 (Xiao)
 
 ![](../datasheets/images/esp32-s3-pinout.png)
 

@@ -2,7 +2,7 @@
 
 | English            | French                  |
 | ------------------ | ----------------------- |
-| caster wheel       | roue à bille            |
+| caster wheel       | roue passive avec bille |
 | gear motor         | moto-réducteur          |
 | gearbox            | réducteur               |
 | rolling resistance | résistance au roulement |
