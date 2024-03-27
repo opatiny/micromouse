@@ -40,3 +40,4 @@
 - ordered new esp boards on Mouser
 - fixed distance sensors thread -> it now works with 2 sensors in parallel
 - meeting Prof. Weiss on Monday
+- battery voltage measurement task works

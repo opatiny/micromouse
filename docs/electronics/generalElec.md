@@ -5,7 +5,7 @@ What do we want on our mouse?
 - 2x DC motors with encoders
 - 1x H bridge dual motor driver
 - 1x MPU with bluetooth and/or wifi for debug
-- 1x buzzer for sound signals
+- 1x buzzer for sound signals (PKLCS1212E20A0-R1)
 - debug LEDS
 - 5x distance sensors
 - battery
@@ -13,7 +13,7 @@ What do we want on our mouse?
 
 In the following sections, each of these different components are described in more details.
 
-## Distance sensors: VL53L1Xß
+## Distance sensors: VL53L1X
 
 The device pins have the following functions:
 [!](../datasheets/images/vl53l1x-pin-description.png)
