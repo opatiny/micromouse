@@ -18,7 +18,7 @@
 | J1_10      | 17         | GPIO17    | Right motor, pin 1          |
 | J1_11      | 18         | GPIO18    | Right motor, pin 2          |
 | J1_12      | 8          | ADC1_7    | Battery voltage measurement |
-| J1_13      | 3          | GPIO3     |                             |
+| J1_13      | 3          | GPIO3     | Buzzer                      |
 | J1_14      | 46         | GPIO46    |                             |
 | J1_15      | 9          | GPIO9     |                             |
 | J1_16      | 10         | GPIO10    |                             |
@@ -31,27 +31,33 @@
 
 ## Right side (USB connectors at the bottom)
 
-| Jumper pin | Silk label | Pin name | Usage         |
-| ---------- | ---------- | -------- | ------------- |
-| J3_1       | G          | GND      | Common ground |
-| J3_2       | TX         | GPIO43   |               |
-| J3_3       | RX         | GPIO44   |               |
-| J3_4       | 1          | GPIO1    | SDA           |
-| J3_5       | 2          | GPIO2    | SCL           |
-| J3_6       | 42         | GPIO42   |               |
-| J3_7       | 41         | GPIO41   |               |
-| J3_8       | 40         | GPIO40   |               |
-| J3_9       | 39         | GPIO39   |               |
-| J3_10      | 38         | GPIO38   |               |
-| J3_11      | 37         | GPIO37   |               |
-| J3_12      | 26         | GPIO26   |               |
-| J3_13      | 35         | GPIO35   |               |
-| J3_14      | 0          | GPIO0    |               |
-| J3_15      | 45         | GPIO45   |               |
-| J3_16      | 48         | GPIO48   |               |
-| J3_17      | 47         | GPIO47   |               |
-| J3_18      | 21         | GPIO21   |               |
-| J3_19      | 20         | GPIO20   |               |
-| J3_20      | 1          | GPIO19   |               |
-| J3_21      | G          | GND      | Common ground |
-| J3_22      | G          | GND      | Common ground |
+Note: ToF are VL53L1X time of flight distance sensors.
+
+| Jumper pin | Silk label | Pin name | Usage                 |
+| ---------- | ---------- | -------- | --------------------- |
+| J3_1       | G          | GND      | Common ground         |
+| J3_2       | TX         | GPIO43   |                       |
+| J3_3       | RX         | GPIO44   |                       |
+| J3_4       | 1          | GPIO1    | SDA                   |
+| J3_5       | 2          | GPIO2    | SCL                   |
+| J3_6       | 42         | GPIO42   | Left ToF XSHUT        |
+| J3_7       | 41         | GPIO41   | Front-left ToF XSHUT  |
+| J3_8       | 40         | GPIO40   | Front ToF XSHUT       |
+| J3_9       | 39         | GPIO39   | Front-right ToF XSHUT |
+| J3_10      | 38         | GPIO38   | Front-right ToF XSHUT |
+| J3_11      | 37         | GPIO37   |                       |
+| J3_12      | 26         | GPIO26   |                       |
+| J3_13      | 35         | GPIO35   |                       |
+| J3_14      | 0          | GPIO0    |                       |
+| J3_15      | 45         | GPIO45   |                       |
+| J3_16      | 48         | GPIO48   |                       |
+| J3_17      | 47         | GPIO47   |                       |
+| J3_18      | 21         | GPIO21   |                       |
+| J3_19      | 20         | GPIO20   |                       |
+| J3_20      | 1          | GPIO19   |                       |
+| J3_21      | G          | GND      | Common ground         |
+| J3_22      | G          | GND      | Common ground         |
+
+## Other
+
+- RGB LED on pin 38

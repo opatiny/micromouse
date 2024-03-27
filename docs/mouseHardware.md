@@ -54,8 +54,25 @@
 
 ## Battery
 
--
+- Reference: RD XT 1100 S2
+- Manufacturer: Red Power
+- Chemistry: Lithium polymer
+- Capacity: 1100 mAh
+- Configuration: 2S1P
+- Nominal voltage: 7.4 V
+- Maximum output current: 27 A
+- Connector: XT60
 
 ## Buzzer
 
+- Reference: PKLCS1212E20A0-R1
+- Manufacturer: Murata
+- Technology: piezo-electric
+- Link: https://www.mouser.de/ProductDetail/Murata-Electronics/PKLCS1212E20A0-R1?qs=qEIx2DuoqD%2FARxhlKJ5jbw%3D%3D
+
 ## Wheels
+
+- Reference: Pololu Wheel 32×7mm Pair
+- Manufacturer: Polulu
+- Tires material: Silicone
+- Link: https://www.pololu.com/product/1087
