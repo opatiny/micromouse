@@ -1,4 +1,4 @@
-20338495440791795
+20345341605448219
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85981,9 +85981,37 @@ varistor SIOV
 2
 2
 footprints
-PKLCS1212E20A0R1
-PKLCS1212E20A0-R1-1
-Loudspeaker or Buzzer
+AMASS_XT60-M
+
+
 0
 2
 2
+footprints
+GY-521
+
+
+0
+8
+8
+footprints
+JST_SH_6pins
+
+
+0
+8
+8
+footprints
+SPKR_PKLCS1212E20A0-R1
+
+
+0
+2
+2
+footprints
+XCVR_ESP32-S3-DEVKITC-1U-N8R2
+
+
+0
+44
+44

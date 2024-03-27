@@ -1,6 +1,6 @@
 (kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
   (symbol "ToF distance sensor" (in_bom yes) (on_board yes)
-    (property "Reference" "VL51L1X" (id 0) (at 0 -11.43 0)
+    (property "Reference" "VL53L1X" (id 0) (at 0 -11.43 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ToF distance sensor" (id 1) (at 0 -8.89 0)
@@ -11,6 +11,12 @@
     )
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "ToF distance sensor_0_1"
+      (rectangle (start 1.27 7.62) (end 8.89 -7.62)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
     )
     (symbol "ToF distance sensor_1_1"
       (pin input line (at -1.27 6.35 0) (length 2.54)
