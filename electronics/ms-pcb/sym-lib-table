@@ -6,4 +6,5 @@
   (lib (name "XT60-M")(type "KiCad")(uri "${KIPRJMOD}/symbols/XT60-M.kicad_sym")(options "")(descr ""))
   (lib (name "ESP32-S3-DEVKITC-1U-N8R2")(type "KiCad")(uri "${KIPRJMOD}/symbols/ESP32-S3-DEVKITC-1U-N8R2.kicad_sym")(options "")(descr ""))
   (lib (name "DRV8833")(type "KiCad")(uri "${KIPRJMOD}/symbols/DRV8833.kicad_sym")(options "")(descr ""))
+  (lib (name "PTS526_SMG15_SMTR2_LFS")(type "KiCad")(uri "${KIPRJMOD}/symbols/PTS526_SMG15_SMTR2_LFS.kicad_sym")(options "")(descr ""))
 )
