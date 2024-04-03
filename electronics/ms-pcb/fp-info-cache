@@ -1,4 +1,4 @@
-20345341605448219
+20352190197687600
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -86002,6 +86002,13 @@ JST_SH_6pins
 8
 8
 footprints
+Polulu_Micro_Gearmotor
+Mounting Hole 2.2mm, no annular, M2, ISO7380
+mounting hole 2.2mm no annular m2 iso7380
+0
+0
+0
+footprints
 SPKR_PKLCS1212E20A0-R1
 
 
@@ -86009,9 +86016,30 @@ SPKR_PKLCS1212E20A0-R1
 2
 2
 footprints
+SW_PTS526_SMG15_SMTR2_LFS
+
+
+0
+6
+6
+footprints
+TinyTronics_VL53L1X
+Through hole straight pin header, 1x06, 2.54mm pitch, single row
+Through hole pin header THT 1x06 2.54mm single row
+0
+6
+6
+footprints
 XCVR_ESP32-S3-DEVKITC-1U-N8R2
 
 
 0
 44
 44
+footprints
+caster_wheel
+
+
+0
+0
+0

@@ -63,6 +63,8 @@
 - Nominal voltage: 7.4 V
 - Maximum output current: 27 A
 - Connector: XT60
+- Dimensions: 55 x 30 x 17mm
+- Link: https://www.reichelt.de/dk/en/li-po-battery-7-4-v-1100-mah-rd-xt-1100-s2-p336956.html?CCOUNTRY=449&LANGUAGE=en&&r=1
 
 ## Buzzer
 
