@@ -7,5 +7,6 @@
 | gearbox            | réducteur               |
 | rolling resistance | résistance au roulement |
 | efficiency         | rendement               |
+| calliper           | pied à coulisse         |
 
 I2C: Leader and follower devices

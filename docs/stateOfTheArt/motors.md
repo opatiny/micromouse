@@ -2,6 +2,10 @@
 
 "If you are a beginner we would suggest you to go with 200–400 RPM. But in general a motor with **600RPM** is fine and it’s definitely fast enough. Also, if you want to either increase or decrease the speed after buying motors, try changing the diameter of the wheels." - https://medium.com/analytics-vidhya/mm-sensors-and-motors-7fa3a870db67
 
+## Best motors
+
+I should have bought motors with the encoders directly built in: https://www.pololu.com/product/5211
+
 ## Links
 
 - Micro Metal Gearmotors with Extended Motor Shafts (good small motors): https://www.pololu.com/category/141/micro-metal-gearmotors-with-extended-motor-shafts?source=post_page-----7fa3a870db67--------------------------------

@@ -15,6 +15,10 @@ Quote: "NinjaFlex was the softest material tested, hence the one most difficult 
 - http://micromouseusa.com/?p=1111
 - https://micromouseonline.com/2014/05/25/travelling-bumpy-road-micromouse/
 
+## Ball caster wheels
+
+- https://de.aliexpress.com/item/32844183843.html?src=google&aff_fcid=4fe4a9bcce924eab9ee7924808c9760b-1712137465957-07486-UneMJZVf&aff_fsk=UneMJZVf&aff_platform=aaf&sk=UneMJZVf&aff_trace_key=4fe4a9bcce924eab9ee7924808c9760b-1712137465957-07486-UneMJZVf&terminal_id=2aaf100d82f44becbc8c6c5dcaa20a97&afSmartRedirect=y
+
 ## Links
 
 - https://www.jsumo.com/wheels

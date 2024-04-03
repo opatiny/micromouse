@@ -21,7 +21,7 @@
 | J1_13      | 3          | GPIO3     | Buzzer                      |
 | J1_14      | 46         | GPIO46    |                             |
 | J1_15      | 9          | GPIO9     |                             |
-| J1_16      | 10         | GPIO10    |                             |
+| J1_16      | 10         | GPIO10    | Push button                 |
 | J1_17      | 11         | GPIO11    |                             |
 | J1_18      | 12         | GPIO12    |                             |
 | J1_19      | 13         | GPIO13    |                             |

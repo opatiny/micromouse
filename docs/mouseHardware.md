@@ -43,6 +43,7 @@
 - Range: 30-4000 mm
 - Communication: I2C
 - Supply voltage: 3.3-5V
+- Board dimensions: 25x10.7 mm
 - Link: https://www.tinytronics.nl/en/sensors/distance/vl53l1x-time-of-flight-tof-distance-sensor
 
 ## Accelerometer
@@ -69,6 +70,13 @@
 - Manufacturer: Murata
 - Technology: piezo-electric
 - Link: https://www.mouser.de/ProductDetail/Murata-Electronics/PKLCS1212E20A0-R1?qs=qEIx2DuoqD%2FARxhlKJ5jbw%3D%3D
+
+## Push button
+
+- Reference: PTS526 SMG15 SMTR2 LFS
+- Manufacturer: C&K Switches
+- Dimensions: 6.4x5.2mm
+- Link: https://www.mouser.de/ProductDetail/611-PTS526SMG15SMR2L
 
 ## Wheels
 
