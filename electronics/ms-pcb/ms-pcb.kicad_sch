@@ -1855,9 +1855,9 @@
   (no_connect (at 176.53 142.24) (uuid a2703a28-4456-454e-b3aa-2435e2b0047b))
   (no_connect (at 176.53 144.78) (uuid a2703a28-4456-454e-b3aa-2435e2b0047c))
   (no_connect (at 123.19 176.53) (uuid fd481429-0696-4b12-ae57-211f11c50243))
-  (no_connect (at 123.19 186.69) (uuid fd481429-0696-4b12-ae57-211f11c50243))
-  (no_connect (at 96.52 186.69) (uuid fd481429-0696-4b12-ae57-211f11c50243))
-  (no_connect (at 96.52 176.53) (uuid fd481429-0696-4b12-ae57-211f11c50243))
+  (no_connect (at 123.19 186.69) (uuid fd481429-0696-4b12-ae57-211f11c50244))
+  (no_connect (at 96.52 186.69) (uuid fd481429-0696-4b12-ae57-211f11c50245))
+  (no_connect (at 96.52 176.53) (uuid fd481429-0696-4b12-ae57-211f11c50246))
 
   (wire (pts (xy 201.93 142.24) (xy 204.47 142.24))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -3612,22 +3612,6 @@
     (pin "P" (uuid 2b1d476e-aee9-48a8-9fd0-a9698c730f78))
   )
 
-  (symbol (lib_id "power:+BATT") (at 50.8 156.21 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 9c46dd07-06c6-44d5-9650-1b2bc80123b8)
-    (property "Reference" "#PWR031" (id 0) (at 50.8 160.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+BATT" (id 1) (at 50.8 151.13 0))
-    (property "Footprint" "" (id 2) (at 50.8 156.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 50.8 156.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8e64e855-3cca-4656-991d-6668706d373d))
-  )
-
   (symbol (lib_id "power:GND") (at 176.53 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9de09592-281c-4c54-b7a8-e0d0ed692bc3)
@@ -3741,6 +3725,22 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a2cc0bd6-99bc-4fd3-8e37-4da5d4d350f7))
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 50.8 156.21 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid b021273c-faa8-417a-a42d-60ad91fbbbdf)
+    (property "Reference" "#PWR?" (id 0) (at 50.8 160.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (id 1) (at 50.8 151.13 0))
+    (property "Footprint" "" (id 2) (at 50.8 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 50.8 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid fd43dac7-debc-4c0a-ae94-6dd2bfe1cfb4))
   )
 
   (symbol (lib_id "PTS526_SMG15_SMTR2_LFS:PTS526_SMG15_SMTR2_LFS") (at 130.81 133.35 0) (unit 1)
@@ -4257,9 +4257,6 @@
     (path "/19ca011f-1819-4d56-b35a-c3197769269d"
       (reference "#PWR030") (unit 1) (value "+BATT") (footprint "")
     )
-    (path "/9c46dd07-06c6-44d5-9650-1b2bc80123b8"
-      (reference "#PWR031") (unit 1) (value "+BATT") (footprint "")
-    )
     (path "/40881dde-43ab-4252-b599-23e6f5bf1d52"
       (reference "#PWR032") (unit 1) (value "+BATT") (footprint "")
     )
@@ -4271,6 +4268,9 @@
     )
     (path "/cc49ef3e-2827-46d6-9eee-52b32f58b4f7"
       (reference "#PWR035") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/b021273c-faa8-417a-a42d-60ad91fbbbdf"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/640f477c-349e-4544-8313-0567779ba460"
       (reference "D1") (unit 1) (value "LED_VBAT") (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
