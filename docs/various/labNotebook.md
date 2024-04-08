@@ -41,3 +41,17 @@
 - fixed distance sensors thread -> it now works with 2 sensors in parallel
 - meeting Prof. Weiss on Monday
 - battery voltage measurement task works
+
+## April
+
+### 01 - 07
+
+- buzzer task works
+- received batteries and charger and learned to use it
+- manage to spin a motor forwards and backwards
+- analysed impact of motor on battery voltage
+- start encoder task -> problem: counter increases even when motor does not spin
+- PCB v 0.1 schematic mainly finished
+- started PCB layout too
+
+### 08 - 14
