@@ -32,7 +32,7 @@ The device pins have the following functions:
 We'll need PWM to get different notes with the buzzer.
 "All GPIO pins on XIAO ESP32S3 support PWM output. Therefore, you can use any pin to output PWM to adjust the brightness of lights, control servos, and other functions." - https://wiki.seeedstudio.com/xiao_esp32s3_pin_multiplexing/
 
-The buzzer takes a frequency of typically 400kHz, how do we generate this?
+The buzzer takes a frequency of typically 400kHz, how do we generate this? This is actually not true. You apply the frequency that you want to hear, so i.e. 440 Hz.
 
 ## Debug LEDs
 
@@ -43,7 +43,11 @@ We want to put a bunch of debug LEDs in the circuit.
 
 ## Battery voltage measurement
 
-We want to add a voltage divider on the battery in order to measure the battery voltage and hence know when the battery is discharged.
+We want to add a voltage divider on the battery in order to measure the battery voltage and hence know when the battery is discharged. This requires reading an analog voltage -> ADC.
+
+## Encoders
+
+- we use an interrupt with a small routine that increases/decreases a counter depending on the spin direction
 
 ### Links
 

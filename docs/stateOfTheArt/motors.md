@@ -6,6 +6,8 @@
 
 I should have bought motors with the encoders directly built in: https://www.pololu.com/product/5211
 
+The encoders we bought have 12CPR, but they are some disks with 20CPR that we could buy and that are compatible with our encoder: https://www.pololu.com/product/3498
+
 ## Links
 
 - Micro Metal Gearmotors with Extended Motor Shafts (good small motors): https://www.pololu.com/category/141/micro-metal-gearmotors-with-extended-motor-shafts?source=post_page-----7fa3a870db67--------------------------------
