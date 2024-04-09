@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (tedit 0)
   (attr through_hole)
-  (fp_text reference "DRV8833-**" (at 0 -11.684 unlocked) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -11.684 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 951b6505-5bf5-4518-8ba0-93322cb268f6)
   )

@@ -22,8 +22,8 @@
   (fp_line (start -1.33 1.27) (end 1.33 1.27) (layer "F.SilkS") (width 0.12) (tstamp d3d5bb20-e845-4d85-adad-b79ea9e39827))
   (fp_line (start -1.33 14.03) (end 1.33 14.03) (layer "F.SilkS") (width 0.12) (tstamp e4b6d20a-3f18-453e-b00e-787d4e134e56))
   (fp_line (start 1.33 1.27) (end 1.33 14.03) (layer "F.SilkS") (width 0.12) (tstamp e655880d-3ea7-40b4-8589-b010ca372ef5))
+  (fp_rect (start -1.905 -1.778) (end -6.35 14.478) (layer "F.SilkS") (width 0.12) (fill none) (tstamp 6db4e285-6526-4614-9240-dcf1c9a9a9f7))
   (fp_rect (start -6.35 -6.0325) (end -1.905 18.7325) (layer "Dwgs.User") (width 0.0508) (fill none) (tstamp 1fc1b97f-79f8-4188-8ff3-389c58a33e82))
-  (fp_rect (start -1.905 -1.778) (end -6.35 14.478) (layer "Dwgs.User") (width 0.12) (fill none) (tstamp 6db4e285-6526-4614-9240-dcf1c9a9a9f7))
   (fp_line (start 1.8 14.5) (end 1.8 -1.8) (layer "F.CrtYd") (width 0.05) (tstamp 1a8a7c24-9121-445b-aa55-b3ae90eef583))
   (fp_line (start 1.8 -1.8) (end -1.8 -1.8) (layer "F.CrtYd") (width 0.05) (tstamp 5502933d-b36d-4c62-b764-5a2d390b494d))
   (fp_line (start -1.8 14.5) (end 1.8 14.5) (layer "F.CrtYd") (width 0.05) (tstamp 75bddfb1-ae2f-472a-b1b7-6051f75df1ca))
@@ -39,9 +39,19 @@
   (pad "4" thru_hole oval (at 0 7.62) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp ed05ba03-1e59-4764-8823-f63056f52720))
   (pad "5" thru_hole oval (at 0 10.16) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 3361c9a3-c4cc-47dc-ac72-a9c418921124))
   (pad "6" thru_hole oval (at 0 12.7) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 30d686b6-b79d-4837-a792-ba6d6ea1579e))
-  (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl" hide
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
+  )
+  (model "${KIPRJMOD}/3dModels/VL53l1X.STEP"
+    (offset (xyz -3.81 -6.985 5.08))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -180 0 90))
+  )
+  (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Horizontal.step"
+    (offset (xyz 0 -12.7 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
   )
 )
