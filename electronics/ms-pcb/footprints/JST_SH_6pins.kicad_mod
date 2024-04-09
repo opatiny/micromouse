@@ -41,4 +41,9 @@
     (solder_mask_margin 0.102) (tstamp 23b46ad3-1766-4379-97bc-5859f8c2e22b))
   (pad "S2" smd rect (at 3.8 0) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (tstamp d14300a8-91c2-4842-a439-cf06fb8c1a66))
+  (model "${KIPRJMOD}/3dModels/JST_SH_6pins.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

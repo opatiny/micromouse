@@ -61,4 +61,9 @@
       edd0eb46-68c2-467e-879e-d36c715cafdc
     )
   )
+  (model "${KIPRJMOD}/3dModels/micro-metal-gearmotor-extended-with-1086-bracket.step"
+    (offset (xyz 1.905 0 5.08))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
