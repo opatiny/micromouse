@@ -194,7 +194,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "\nConnector Header Surface Mount 6 position 0.039 (1.00mm)\n"
 			(at 98.500006 108.000013 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2154,7 +2154,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "\nConnector Header Surface Mount 6 position 0.039 (1.00mm)\n"
 			(at 151.500002 108.000013 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2772,7 +2772,7 @@
 		(uuid "a8c5fe6e-60f5-461f-829d-704608e9c7ef")
 		(at 126.500001 94.999988)
 		(property "Reference" "S1"
-			(at 0.175 -4.135 0)
+			(at 0.175 4.500012 0)
 			(layer "F.SilkS")
 			(uuid "65dcf31b-0339-4d1a-bf8f-b9e42cc4ccc3")
 			(effects
@@ -2783,7 +2783,7 @@
 			)
 		)
 		(property "Value" "PTS526_SMG15_SMTR2_LFS"
-			(at 12.875 4.135 0)
+			(at -0.000001 -4.499988 0)
 			(layer "F.Fab")
 			(uuid "b36072a7-101b-49a6-bdc0-1cf7ea46de22")
 			(effects
@@ -2817,7 +2817,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "\nTactile Switch SPST-NO Top Actuated Surface Mount\n"
 			(at 126.500001 94.999988 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4347,7 +4347,7 @@
 		(uuid "da4b52a9-6b99-4f53-8c7e-9bbc1d636192")
 		(at 162.500005 122.00001 -90)
 		(property "Reference" "J3"
-			(at -4.825 -5.935 90)
+			(at -0.00001 -5.499995 90)
 			(layer "F.SilkS")
 			(uuid "d6c4367b-fe95-46aa-9fe0-713c8ba63c06")
 			(effects
@@ -4392,7 +4392,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "\nPlug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V\n"
 			(at 162.500005 122.00001 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5407,7 +5407,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "\nWiFi Development Tools - 802.11 ESP32-S3 Gen-Purpose Dev Bd, embeds ESP32-S3-WROOM-1U-N8R2, 8 MB Quad Flash, 2 MB Quad PSRAM, IPEX antenna connector, w/ Pin Header\n"
 			(at 124.500005 73.000006 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6241,7 +6241,7 @@
 		(uuid "04dcb675-5611-4bff-a589-b0b1cb782456")
 		(at 97.5 122)
 		(property "Reference" "U2"
-			(at -2.885 9.445 0)
+			(at -3 12 0)
 			(layer "B.SilkS")
 			(uuid "1299fe1b-ae17-482c-9625-4c23a827cbe0")
 			(effects
@@ -6288,7 +6288,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "\nTriple Axis Accelerometer Gyro Breakout\n"
 			(at 97.5 122 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6494,8 +6494,8 @@
 			(layer "B.SilkS")
 			(uuid "4b9e418d-d00c-4d93-a00b-25fc44ce1dcc")
 		)
-		(fp_text user "ITG/MPU"
-			(at -2.25 -11.51 0)
+		(fp_text user "MPU6080"
+			(at -3.5 -11.5 0)
 			(layer "B.SilkS")
 			(uuid "31fc6621-f5f2-46eb-a6df-91a9e830155e")
 			(effects
@@ -6656,7 +6656,7 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R5"
-			(at 0 1.82 0)
+			(at 0 -2.5 0)
 			(layer "B.SilkS")
 			(uuid "2b343c83-2a60-462d-ac39-960b672bc34e")
 			(effects
@@ -6668,7 +6668,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 -1.82 0)
+			(at 0 2.5 0)
 			(layer "B.Fab")
 			(uuid "febbe19d-ef2b-4abb-a358-e4243ec132b6")
 			(effects
@@ -6862,16 +6862,16 @@
 			)
 		)
 	)
-	(footprint "footprints:caster_wheel"
+	(footprint "footprints:caster_wheel_custom"
 		(locked yes)
 		(layer "B.Cu")
 		(uuid "7f955f0f-8353-4f62-8a31-5c77bb41494b")
 		(at 124.5 51 180)
 		(property "Reference" "H2"
-			(at 0 1.4 -0)
+			(at 0.5 0 0)
 			(unlocked yes)
 			(layer "B.SilkS")
-			(uuid "09a51377-dbab-4589-a3ea-f4a10d447fed")
+			(uuid "2602a96a-2dbc-422d-ac27-4faedcd13b7b")
 			(effects
 				(font
 					(size 1 1)
@@ -6881,10 +6881,10 @@
 			)
 		)
 		(property "Value" "Caster_wheel_holes"
-			(at 0 0 0)
+			(at 0 -7 0)
 			(unlocked yes)
 			(layer "B.Fab")
-			(uuid "3a0ca9c6-bf19-4764-b85d-30d9f8307c3d")
+			(uuid "6d066066-ea06-425d-ae00-8aa6bb22d8c1")
 			(effects
 				(font
 					(size 1 1)
@@ -6893,12 +6893,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "footprints:caster_wheel"
+		(property "Footprint" "footprints:caster_wheel_custom"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "861e2610-df5e-4a13-95c0-61609644cf14")
+			(uuid "e7fd5823-bd21-47ef-9511-f13a9b1ce052")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6911,7 +6911,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d71f7431-09df-4f0b-ab84-f7ba93e0ccc0")
+			(uuid "be3d2449-374d-4920-809b-e3c6094016e7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6924,7 +6924,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6097a2a9-44f0-4cd5-bb35-cf107bb7e512")
+			(uuid "c213582a-5e2f-4ce7-818d-8cab6c7d37dc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6932,40 +6932,43 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/cec790e5-e607-4ae5-90b4-02dc34e0285a")
+		(sheetname "Root")
+		(sheetfile "ms-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_circle
-			(center 8.000624 0)
-			(end 5.000624 0)
+			(center 8 0)
+			(end 10 0)
 			(stroke
-				(width 0.12)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
 			(fill none)
 			(layer "B.SilkS")
-			(uuid "3030584b-95bc-44b2-b944-28f010c83e49")
+			(uuid "118ab0a7-5c05-4122-9161-8daa82b92317")
 		)
 		(fp_circle
 			(center 0 0)
-			(end -8 -0.1)
+			(end 6 0)
 			(stroke
-				(width 0.12)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
 			(fill none)
 			(layer "B.SilkS")
-			(uuid "48df4cf9-ae92-4305-b599-fb2bf48bc99f")
+			(uuid "d5f47bd8-e302-4c30-ace7-26b4f8bcaae7")
 		)
 		(fp_circle
-			(center -8 0.001666)
-			(end -11 0.001666)
+			(center -8 0)
+			(end -6 0)
 			(stroke
-				(width 0.12)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
 			(fill none)
 			(layer "B.SilkS")
-			(uuid "2c80342e-428f-4ab7-924f-f6dd3cc99c6c")
+			(uuid "37a66cf8-0619-496d-a11f-d0d0be1eaf5b")
 		)
 		(fp_circle
 			(center 8 0)
@@ -6976,7 +6979,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "a9afcd08-4600-473d-b7d8-37a8b6542202")
+			(uuid "1334dab3-1a59-4aa6-96f0-a56ff0c46b70")
 		)
 		(fp_circle
 			(center -7.95 0)
@@ -6987,7 +6990,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "893cd183-fb31-4624-bc99-e0190041e662")
+			(uuid "e2b0e38f-6582-4649-96f2-3fa585450b63")
 		)
 		(fp_circle
 			(center 8 0)
@@ -6998,7 +7001,7 @@
 			)
 			(fill none)
 			(layer "B.CrtYd")
-			(uuid "0ba887b9-25be-48d5-8c08-bb787daaddd3")
+			(uuid "64fc95bb-4b9b-4163-b631-993261532cc8")
 		)
 		(fp_circle
 			(center -7.95 0)
@@ -7009,13 +7012,13 @@
 			)
 			(fill none)
 			(layer "B.CrtYd")
-			(uuid "d2ef70d8-e3e8-4ba7-b9f9-4c512ddbdae9")
+			(uuid "ef9e4861-e4fa-4bee-a0bc-1922cc89708f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.6 0)
+			(at 0 -8.6 0)
 			(unlocked yes)
 			(layer "B.Fab")
-			(uuid "f33b29d4-71c6-4f52-a1c0-3bc4c03499df")
+			(uuid "c83fe58b-5643-4c14-97c0-7c13596e98f2")
 			(effects
 				(font
 					(size 1 1)
@@ -7024,66 +7027,33 @@
 				(justify mirror)
 			)
 		)
-		(dimension
-			(type aligned)
-			(layer "Cmts.User")
-			(uuid "4921ce69-109c-43ea-82f7-4d27f81830d9")
-			(pts
-				(xy 132.45 51) (xy 116.45 51)
-			)
-			(height 11)
-			(gr_text "16.0000 mm"
-				(at 124.45 38.9 0)
-				(layer "Cmts.User")
-				(uuid "4921ce69-109c-43ea-82f7-4d27f81830d9")
-				(effects
-					(font
-						(size 1 1)
-						(thickness 0.1)
-					)
-				)
-			)
-			(format
-				(prefix "")
-				(suffix "")
-				(units 3)
-				(units_format 1)
-				(precision 4)
-			)
-			(style
-				(thickness 0.1)
-				(arrow_length 1.27)
-				(text_position_mode 0)
-				(extension_height 0.58642)
-				(extension_offset 0.5) keep_text_aligned)
-		)
 		(pad "" np_thru_hole circle
 			(at -7.95 0 180)
 			(size 2.2 2.2)
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "db8d73bb-c116-4ba6-a0ca-7239095e6ff5")
+			(uuid "79962c2a-9342-4669-909b-a5eea195d1a0")
 		)
 		(pad "" np_thru_hole circle
 			(at 8 0 180)
 			(size 2.2 2.2)
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "f1394a61-58e5-4641-94eb-1675498ff4fd")
+			(uuid "14df942f-8b17-49d6-8af2-d315b7768a5c")
 		)
 		(group ""
-			(uuid "d41848a9-615e-4be7-942e-d90c798709ac")
-			(members "893cd183-fb31-4624-bc99-e0190041e662" "d2ef70d8-e3e8-4ba7-b9f9-4c512ddbdae9"
-				"db8d73bb-c116-4ba6-a0ca-7239095e6ff5"
+			(uuid "880e94ab-32c5-42ed-b6f4-7182c7380f3d")
+			(members "1334dab3-1a59-4aa6-96f0-a56ff0c46b70" "14df942f-8b17-49d6-8af2-d315b7768a5c"
+				"64fc95bb-4b9b-4163-b631-993261532cc8"
 			)
 		)
 		(group ""
-			(uuid "da47abbd-ba61-4151-8bf6-20db3739a7a9")
-			(members "0ba887b9-25be-48d5-8c08-bb787daaddd3" "a9afcd08-4600-473d-b7d8-37a8b6542202"
-				"f1394a61-58e5-4641-94eb-1675498ff4fd"
+			(uuid "a51b0334-4cfd-4e83-83f8-d74d6eb83948")
+			(members "79962c2a-9342-4669-909b-a5eea195d1a0" "e2b0e38f-6582-4649-96f2-3fa585450b63"
+				"ef9e4861-e4fa-4bee-a0bc-1922cc89708f"
 			)
 		)
-		(model "${KIPRJMOD}/3dModels/caster-wheel-spacer.STEP"
+		(model "${KIPRJMOD}/3dModels/caster-wheel-custom.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7094,28 +7064,17 @@
 				(xyz -90 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/3dModels/caster ball wheel.STEP"
-			(offset
-				(xyz 0 0 1)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "footprints:caster_wheel"
+	(footprint "footprints:caster_wheel_custom"
 		(locked yes)
 		(layer "B.Cu")
 		(uuid "8a3192c9-82aa-4adb-849f-d16d30c80b60")
 		(at 124.5 139 180)
 		(property "Reference" "H4"
-			(at 0 1.4 -0)
+			(at 0.5 0 0)
 			(unlocked yes)
 			(layer "B.SilkS")
-			(uuid "4c464b78-4658-416c-a054-318a3c21a3fd")
+			(uuid "358c3735-9176-4155-9db0-f85022395d68")
 			(effects
 				(font
 					(size 1 1)
@@ -7125,10 +7084,10 @@
 			)
 		)
 		(property "Value" "Caster_wheel_holes"
-			(at 0 0 0)
+			(at 0 -7 0)
 			(unlocked yes)
 			(layer "B.Fab")
-			(uuid "23c2f2c9-9c21-4fce-982d-0aebd6a0ba91")
+			(uuid "f523cc83-765a-4924-9a79-8fc2ef43824e")
 			(effects
 				(font
 					(size 1 1)
@@ -7137,12 +7096,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "footprints:caster_wheel"
+		(property "Footprint" "footprints:caster_wheel_custom"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "15c0de4b-3940-4122-9a18-f645963cfa04")
+			(uuid "ac45cf1e-6ea4-4920-8527-290f3129253c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7155,7 +7114,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "194c7134-5a4a-4795-869b-e1563d373ead")
+			(uuid "88be9e4b-0be8-4b1b-a5e6-2afd51bf2f39")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7168,7 +7127,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "cf802d4e-d6b8-438b-a0d6-80fd380c269f")
+			(uuid "d3a691da-3dd3-488d-8f29-19becf01e0e0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7176,40 +7135,43 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/805f6bfa-3b67-411c-aa50-643095a34de7")
+		(sheetname "Root")
+		(sheetfile "ms-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_circle
-			(center 8.000624 0)
-			(end 5.000624 0)
+			(center 8 0)
+			(end 10 0)
 			(stroke
-				(width 0.12)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
 			(fill none)
 			(layer "B.SilkS")
-			(uuid "f5b531da-c005-40cf-8a79-bc2dd7ac8b4a")
+			(uuid "720aea66-26ff-4272-879c-3f5d32e74fb6")
 		)
 		(fp_circle
 			(center 0 0)
-			(end -8 -0.1)
+			(end 6 0)
 			(stroke
-				(width 0.12)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
 			(fill none)
 			(layer "B.SilkS")
-			(uuid "81fd5f1a-8758-42ae-b714-2724b3f7cbe2")
+			(uuid "a82b2f2e-47d6-4dfb-865f-80088a6b3a51")
 		)
 		(fp_circle
-			(center -8 0.001666)
-			(end -11 0.001666)
+			(center -8 0)
+			(end -6 0)
 			(stroke
-				(width 0.12)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
 			(fill none)
 			(layer "B.SilkS")
-			(uuid "67604766-3a2e-4a39-b5db-dd44a32e23d6")
+			(uuid "3f5cd503-3e68-4bed-bb3f-7a25143084c7")
 		)
 		(fp_circle
 			(center 8 0)
@@ -7220,7 +7182,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "65c76813-461f-47cb-a724-77987fa025ba")
+			(uuid "a54a2343-533f-426b-b476-865ce082d00d")
 		)
 		(fp_circle
 			(center -7.95 0)
@@ -7231,7 +7193,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "4ca7ede2-0112-470d-9f5e-42d19761b722")
+			(uuid "1cab1e0d-8853-4d24-932c-8d59ed0eb0c4")
 		)
 		(fp_circle
 			(center 8 0)
@@ -7242,7 +7204,7 @@
 			)
 			(fill none)
 			(layer "B.CrtYd")
-			(uuid "82b0ded0-ec8b-4c65-af79-4cf09b032e63")
+			(uuid "5959c696-1f39-4ba6-8ee1-5e14e6330a1a")
 		)
 		(fp_circle
 			(center -7.95 0)
@@ -7253,13 +7215,13 @@
 			)
 			(fill none)
 			(layer "B.CrtYd")
-			(uuid "0e00254e-8f56-40e0-b552-75ba5def1eec")
+			(uuid "864c66a1-d970-4cbb-94a9-cce935dd0bd3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.6 0)
+			(at 0 -8.6 0)
 			(unlocked yes)
 			(layer "B.Fab")
-			(uuid "dc5aadb5-7f31-4100-b134-aa9ef61a28f9")
+			(uuid "70e76296-286b-4171-99ff-b6986900df83")
 			(effects
 				(font
 					(size 1 1)
@@ -7268,66 +7230,33 @@
 				(justify mirror)
 			)
 		)
-		(dimension
-			(type aligned)
-			(layer "Cmts.User")
-			(uuid "dd20bbce-5f94-4c71-8fa4-27075c3af2a1")
-			(pts
-				(xy 132.45 139) (xy 116.45 139)
-			)
-			(height 11)
-			(gr_text "16.0000 mm"
-				(at 124.45 126.9 0)
-				(layer "Cmts.User")
-				(uuid "dd20bbce-5f94-4c71-8fa4-27075c3af2a1")
-				(effects
-					(font
-						(size 1 1)
-						(thickness 0.1)
-					)
-				)
-			)
-			(format
-				(prefix "")
-				(suffix "")
-				(units 3)
-				(units_format 1)
-				(precision 4)
-			)
-			(style
-				(thickness 0.1)
-				(arrow_length 1.27)
-				(text_position_mode 0)
-				(extension_height 0.58642)
-				(extension_offset 0.5) keep_text_aligned)
-		)
 		(pad "" np_thru_hole circle
 			(at -7.95 0 180)
 			(size 2.2 2.2)
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "bf1098cd-715e-4d4d-89fd-1395c4704a90")
+			(uuid "e3db144d-5aae-4f1d-a68b-2a67ec9323f6")
 		)
 		(pad "" np_thru_hole circle
 			(at 8 0 180)
 			(size 2.2 2.2)
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "3bba315f-e47a-4b85-92a0-443aec8474a0")
+			(uuid "3c1a325d-10ab-48cb-b2ef-8c90b5043f20")
 		)
 		(group ""
-			(uuid "40053ee8-f844-4de4-b54a-ec45b957e86b")
-			(members "3bba315f-e47a-4b85-92a0-443aec8474a0" "65c76813-461f-47cb-a724-77987fa025ba"
-				"82b0ded0-ec8b-4c65-af79-4cf09b032e63"
+			(uuid "c3c20c0e-5725-4b1e-97d5-3707aeb2ed00")
+			(members "3c1a325d-10ab-48cb-b2ef-8c90b5043f20" "5959c696-1f39-4ba6-8ee1-5e14e6330a1a"
+				"a54a2343-533f-426b-b476-865ce082d00d"
 			)
 		)
 		(group ""
-			(uuid "c7ce50c9-d6f2-47ab-88b6-f6895303d7bb")
-			(members "0e00254e-8f56-40e0-b552-75ba5def1eec" "4ca7ede2-0112-470d-9f5e-42d19761b722"
-				"bf1098cd-715e-4d4d-89fd-1395c4704a90"
+			(uuid "c83d9882-9c7c-4d69-ac88-2da74c13c056")
+			(members "1cab1e0d-8853-4d24-932c-8d59ed0eb0c4" "864c66a1-d970-4cbb-94a9-cce935dd0bd3"
+				"e3db144d-5aae-4f1d-a68b-2a67ec9323f6"
 			)
 		)
-		(model "${KIPRJMOD}/3dModels/caster-wheel-spacer.STEP"
+		(model "${KIPRJMOD}/3dModels/caster-wheel-custom.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7336,17 +7265,6 @@
 			)
 			(rotate
 				(xyz -90 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/3dModels/caster ball wheel.STEP"
-			(offset
-				(xyz 0 0 1)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
 			)
 		)
 	)
@@ -7354,8 +7272,8 @@
 		(layer "B.Cu")
 		(uuid "d3cd803c-6efa-4217-a391-59541069cd74")
 		(at 110.49 72.39 180)
-		(property "Reference" "LS1"
-			(at -3.325 7.135 0)
+		(property "Reference" "PKLCS1212E20A0-R1"
+			(at -0.01 7.135 0)
 			(layer "B.SilkS")
 			(uuid "2fb92558-3dd4-4187-8c43-2c9e89812e7d")
 			(effects
@@ -7402,7 +7320,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "\nBuzzers Transducer, Externally Driven Piezo 1.5 V - 2kHz 70dB @ 1.5V, 10cm Surface Mount Solder Pads\n"
 			(at 110.49 72.39 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7785,7 +7703,7 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
-			(at 0 1.82 0)
+			(at 0 2.5 0)
 			(layer "B.SilkS")
 			(uuid "00e2bacb-f2e7-4c85-b813-2ce30ea60c04")
 			(effects
@@ -7995,7 +7913,7 @@
 		(layer "B.Cu")
 		(uuid "ee389806-373c-4f16-84a8-f86b6e0fb476")
 		(at 147.32 129.54)
-		(property "Reference" "DRV1"
+		(property "Reference" "DRV8833"
 			(at 0 11.684 180)
 			(unlocked yes)
 			(layer "B.SilkS")
@@ -8596,6 +8514,30 @@
 			)
 		)
 	)
+	(gr_circle
+		(center 93 50.5)
+		(end 95 50.5)
+		(locked yes)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "0dca0fb1-0398-4756-8cfa-14371541bf4b")
+	)
+	(gr_circle
+		(center 73.5 70)
+		(end 75.5 70)
+		(locked yes)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "7357fc57-37bf-422e-a281-b7c17faa2c9a")
+	)
 	(gr_rect
 		(start 97.500008 114.000001)
 		(end 152.5 143.999991)
@@ -8606,6 +8548,18 @@
 		(fill none)
 		(layer "Dwgs.User")
 		(uuid "9cba9cae-12cf-4d61-833f-ebaa292bd73b")
+	)
+	(gr_circle
+		(center 112 43)
+		(end 114 43)
+		(locked yes)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "e2d95ee8-5ffc-48bb-9c3e-2f51c47042c7")
 	)
 	(gr_rect
 		(start 70.000012 75.000002)

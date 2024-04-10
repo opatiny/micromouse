@@ -7939,16 +7939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 256.54 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "GODREAM FORDREAM CO., LIMITED"
+		(property "Description" "\nTriple Axis Accelerometer Gyro Breakout\n"
 			(at 256.54 139.7 0)
 			(effects
 				(font
@@ -7958,7 +7949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "\nTriple Axis Accelerometer Gyro Breakout\n"
+		(property "MF" "GODREAM FORDREAM CO., LIMITED"
 			(at 256.54 139.7 0)
 			(effects
 				(font
@@ -8966,12 +8957,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 269.24 78.74 0)
+		(property "Description" "\nConnector Header Surface Mount 6 position 0.039 (1.00mm)\n"
+			(at 238.76 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -9057,16 +9049,6 @@
 		)
 		(property "MP" "BM06B-SRSS-TB(LF)(SN)"
 			(at 267.97 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "\nConnector Header Surface Mount 6 position 0.039 (1.00mm)\n"
-			(at 238.76 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9531,12 +9513,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 269.24 46.99 0)
+		(property "Description" "\nConnector Header Surface Mount 6 position 0.039 (1.00mm)\n"
+			(at 238.76 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -9622,16 +9605,6 @@
 		)
 		(property "MP" "BM06B-SRSS-TB(LF)(SN)"
 			(at 267.97 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "\nConnector Header Surface Mount 6 position 0.039 (1.00mm)\n"
-			(at 238.76 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9997,7 +9970,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:caster_wheel"
+		(property "Footprint" "footprints:caster_wheel_custom"
 			(at 123.19 184.15 0)
 			(effects
 				(font
@@ -10536,12 +10509,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "\nPlug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V\n"
 			(at 39.37 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -10626,16 +10600,6 @@
 			)
 		)
 		(property "MP" "XT60-M"
-			(at 39.37 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "\nPlug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V\n"
 			(at 39.37 133.35 0)
 			(effects
 				(font
@@ -11255,12 +11219,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "\nTactile Switch SPST-NO Top Actuated Surface Mount\n"
 			(at 132.08 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -11345,16 +11310,6 @@
 			)
 		)
 		(property "MP" "PTS526 SMG15 SMTR2 LFS"
-			(at 132.08 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "\nTactile Switch SPST-NO Top Actuated Surface Mount\n"
 			(at 132.08 147.32 0)
 			(effects
 				(font
@@ -11456,12 +11411,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "\nWiFi Development Tools - 802.11 ESP32-S3 Gen-Purpose Dev Bd, embeds ESP32-S3-WROOM-1U-N8R2, 8 MB Quad Flash, 2 MB Quad PSRAM, IPEX antenna connector, w/ Pin Header\n"
 			(at 59.69 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -11546,16 +11502,6 @@
 			)
 		)
 		(property "MP" "ESP32-S3-DEVKITC-1U-N8R2"
-			(at 59.69 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "\nWiFi Development Tools - 802.11 ESP32-S3 Gen-Purpose Dev Bd, embeds ESP32-S3-WROOM-1U-N8R2, 8 MB Quad Flash, 2 MB Quad PSRAM, IPEX antenna connector, w/ Pin Header\n"
 			(at 59.69 60.96 0)
 			(effects
 				(font
@@ -11951,7 +11897,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:caster_wheel"
+		(property "Footprint" "footprints:caster_wheel_custom"
 			(at 123.19 173.99 0)
 			(effects
 				(font
@@ -12036,12 +11982,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "\nBuzzers Transducer, Externally Driven Piezo 1.5 V - 2kHz 70dB @ 1.5V, 10cm Surface Mount Solder Pads\n"
 			(at 81.28 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -12126,16 +12073,6 @@
 			)
 		)
 		(property "MP" "PKLCS1212E20A0-R1"
-			(at 81.28 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "\nBuzzers Transducer, Externally Driven Piezo 1.5 V - 2kHz 70dB @ 1.5V, 10cm Surface Mount Solder Pads\n"
 			(at 81.28 134.62 0)
 			(effects
 				(font
