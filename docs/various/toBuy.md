@@ -1,4 +1,4 @@
-# List of things to buy
+# List of orders done for the project
 
 ## Polulu
 
@@ -23,6 +23,10 @@
 
 - XT60 connectors
 - JST SH 6 pins surface mount connectors
+
+  10.04.2024
+
+- set of ball bearings (for custom caster wheel)
 
 ## Reichelt
 
