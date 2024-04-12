@@ -49,6 +49,12 @@ We want to add a voltage divider on the battery in order to measure the battery 
 
 - we use an interrupt with a small routine that increases/decreases a counter depending on the spin direction
 
+## Acces ESP USB connector
+
+Since it's very compact, we need USBs angles connectors.
+
+The connectors we bought are 18 x 13 x 7 mm.
+
 ### Links
 
 - adafruit guide: https://learn.adafruit.com/adafruit-vl53l1x?view=all
