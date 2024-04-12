@@ -1,0 +1,315 @@
+(footprint "Micromouse_bumper"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 4.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "adcff6e4-6dab-4659-a025-8f306ffcf4af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Micromouse_bumper"
+		(at 0 6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9587466e-8424-43ec-9116-8f7928840c16")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1174fb5-7546-44f5-82ac-a32acc462006")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63846fdb-20d5-4e42-9895-a89b5302b72b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "195f95c4-dcc2-4c1e-9ce3-c7016c471252")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -26 -6) (xy 26 -6) (xy 55 23) (xy 55 30) (xy 25 0) (xy -25 0) (xy -55 30) (xy -55 23)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "Dwgs.User")
+		(uuid "4e7647e3-fe08-485f-9818-dea2ded595dd")
+	)
+	(fp_circle
+		(center -51.5 30)
+		(end -49.6 30)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "9a5d0f19-47c9-4446-a125-405eef397a4c")
+	)
+	(fp_circle
+		(center -31 9.5)
+		(end -29.1 9.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "43e14668-3953-4206-9dab-18a4d5e2a6df")
+	)
+	(fp_circle
+		(center -13 3)
+		(end -11.1 3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "2774b4a4-8d77-44cf-8d01-237da6d7fa0b")
+	)
+	(fp_circle
+		(center 13 3)
+		(end 14.9 3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "f0931f3a-056d-498c-bfe8-7d33acf334c7")
+	)
+	(fp_circle
+		(center 31 9.5)
+		(end 32.9 9.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "af0d80a9-60cd-4666-8134-89cbb70e0b8d")
+	)
+	(fp_circle
+		(center 51.5 30)
+		(end 53.4 30)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "54055055-46f0-4ce5-994f-dd95c2609702")
+	)
+	(fp_circle
+		(center -51.5 30)
+		(end -49.35 30)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "8d84b7e8-4bc0-4f80-806b-4892c9296e6a")
+	)
+	(fp_circle
+		(center -31 9.5)
+		(end -28.85 9.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "711b54df-713e-42d5-a975-6ad3e71616a6")
+	)
+	(fp_circle
+		(center -13 3)
+		(end -10.85 3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "aed0773a-b295-479b-bea3-1dfdf80a7a40")
+	)
+	(fp_circle
+		(center 13 3)
+		(end 15.15 3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "e41aba9d-f1cb-4ec1-a767-543b76a2d9cc")
+	)
+	(fp_circle
+		(center 31 9.5)
+		(end 33.15 9.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "ea4e14e9-9820-452c-aa4a-436aecde07ec")
+	)
+	(fp_circle
+		(center 51.5 30)
+		(end 53.65 30)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "eea6060d-7cf5-4608-964d-c34525298a08")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 7.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fe2688ab-7ec3-4427-8cb5-5dbba91b7279")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -51.5 30)
+		(size 2.2 2.2)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "24b23f29-6b19-4f93-a4cb-a67b1c8c768d")
+	)
+	(pad "" np_thru_hole circle
+		(at -31 9.5)
+		(size 2.2 2.2)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "e390d48d-f1e7-460c-8503-f47772cd90b8")
+	)
+	(pad "" np_thru_hole circle
+		(at -13 3)
+		(size 2.2 2.2)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "b5bf4e47-a1c6-4108-a920-d88aa1906c17")
+	)
+	(pad "" np_thru_hole circle
+		(at 13 3)
+		(size 2.2 2.2)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "937069d8-7032-4f0b-b654-4df5305ff1f1")
+	)
+	(pad "" np_thru_hole circle
+		(at 31 9.5)
+		(size 2.2 2.2)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "a3fd89d2-0739-45dd-a111-c3a4f0579a66")
+	)
+	(pad "" np_thru_hole circle
+		(at 51.5 30)
+		(size 2.2 2.2)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "14312206-7659-401b-9a18-af2b1c20cd5f")
+	)
+	(group ""
+		(uuid "02fbdf15-c80d-41e0-bdcc-4aec920d979f")
+		(members "24b23f29-6b19-4f93-a4cb-a67b1c8c768d" "8d84b7e8-4bc0-4f80-806b-4892c9296e6a"
+			"9a5d0f19-47c9-4446-a125-405eef397a4c"
+		)
+	)
+	(group ""
+		(uuid "60775696-f196-4a35-bfbe-0da972d515a8")
+		(members "a3fd89d2-0739-45dd-a111-c3a4f0579a66" "af0d80a9-60cd-4666-8134-89cbb70e0b8d"
+			"ea4e14e9-9820-452c-aa4a-436aecde07ec"
+		)
+	)
+	(group ""
+		(uuid "86a0195f-362f-4260-a2d9-9da094cc2354")
+		(members "14312206-7659-401b-9a18-af2b1c20cd5f" "54055055-46f0-4ce5-994f-dd95c2609702"
+			"eea6060d-7cf5-4608-964d-c34525298a08"
+		)
+	)
+	(group ""
+		(uuid "b7bf5517-f58d-48da-9b97-e50b72993fde")
+		(members "2774b4a4-8d77-44cf-8d01-237da6d7fa0b" "aed0773a-b295-479b-bea3-1dfdf80a7a40"
+			"b5bf4e47-a1c6-4108-a920-d88aa1906c17"
+		)
+	)
+	(group ""
+		(uuid "d2101b6c-88c0-4fb2-95ee-e11c28130268")
+		(members "937069d8-7032-4f0b-b654-4df5305ff1f1" "e41aba9d-f1cb-4ec1-a767-543b76a2d9cc"
+			"f0931f3a-056d-498c-bfe8-7d33acf334c7"
+		)
+	)
+	(group ""
+		(uuid "d3a377a0-b45e-4e7f-add6-9a2b4aca901a")
+		(members "43e14668-3953-4206-9dab-18a4d5e2a6df" "711b54df-713e-42d5-a975-6ad3e71616a6"
+			"e390d48d-f1e7-460c-8503-f47772cd90b8"
+		)
+	)
+	(model "${KIPRJMOD}/3dModels/bumper.STEP"
+		(offset
+			(xyz 0 -55 -1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
