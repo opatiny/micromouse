@@ -51,11 +51,15 @@ We want to add a voltage divider on the battery in order to measure the battery 
 
 ## Acces ESP USB connector
 
-Since it's very compact, we need USBs angles connectors.
+Since it's very compact, we need USB angled connectors.
 
 The connectors we bought are 18 x 13 x 7 mm.
 
-### Links
+## Final board dimensions
+
+110x110mm
+
+## Links
 
 - adafruit guide: https://learn.adafruit.com/adafruit-vl53l1x?view=all
 - https://github.com/pololu/vl53l1x-arduino?utm_source=platformio&utm_medium=piohome
