@@ -1,4 +1,5 @@
 (sym_lib_table
+  (version 7)
   (lib (name "PKLCS1212E20A0-R1")(type "KiCad")(uri "${KIPRJMOD}/symbols/PKLCS1212E20A0-R1.kicad_sym")(options "")(descr ""))
   (lib (name "VL53L1x")(type "KiCad")(uri "${KIPRJMOD}/symbols/VL53L1x.kicad_sym")(options "")(descr ""))
   (lib (name "GY-521")(type "KiCad")(uri "${KIPRJMOD}/symbols/GY-521.kicad_sym")(options "")(descr ""))
@@ -7,4 +8,5 @@
   (lib (name "ESP32-S3-DEVKITC-1U-N8R2")(type "KiCad")(uri "${KIPRJMOD}/symbols/ESP32-S3-DEVKITC-1U-N8R2.kicad_sym")(options "")(descr ""))
   (lib (name "DRV8833")(type "KiCad")(uri "${KIPRJMOD}/symbols/DRV8833.kicad_sym")(options "")(descr ""))
   (lib (name "PTS526_SMG15_SMTR2_LFS")(type "KiCad")(uri "${KIPRJMOD}/symbols/PTS526_SMG15_SMTR2_LFS.kicad_sym")(options "")(descr ""))
+  (lib (name "KMTG1612")(type "KiCad")(uri "${KIPRJMOD}/symbols/KMTG1612.kicad_sym")(options "")(descr ""))
 )
