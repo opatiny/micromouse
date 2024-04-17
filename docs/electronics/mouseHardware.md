@@ -26,7 +26,7 @@
 - Manufacturer: Polulu
 - Current: max 1.2A output per motor
 - Operating voltage: 2.7 to 10.8 V
-- Link:https://www.pololu.com/product/2130
+- Link: https://www.pololu.com/product/2130
 
 ## Encoders
 
@@ -52,6 +52,7 @@
 - Manufacturer: InveSense
 - Communication: I2C
 - Features: 3 axis accelerometer and 3 axis gyroscope
+- Link: https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf
 
 ## Battery
 
@@ -82,7 +83,7 @@
 
 ## Wheels
 
-- Reference: Pololu Wheel 32×7mm Pair
+- Reference: Pololu Wheel 32×7mm
 - Manufacturer: Polulu
 - Tires material: Silicone
 - Link: https://www.pololu.com/product/1087

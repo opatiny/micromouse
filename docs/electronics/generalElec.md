@@ -5,13 +5,13 @@ What do we want on our mouse?
 - 2x DC motors with encoders
 - 1x H bridge dual motor driver
 - 1x MPU with bluetooth and/or wifi for debug
-- 1x buzzer for sound signals (PKLCS1212E20A0-R1)
+- 1x buzzer for sound signals
 - debug LEDS
 - 5x distance sensors
 - battery
 - accelerometer
 
-In the following sections, each of these different components are described in more details.
+The following sections include information on how the different elements work, and how we implemented them on the PCB. The list of the exact components used can be found in [mouseHardware.md](./mouseHardware.md).
 
 ## Distance sensors: VL53L1X
 
@@ -49,15 +49,21 @@ We want to add a voltage divider on the battery in order to measure the battery 
 
 - we use an interrupt with a small routine that increases/decreases a counter depending on the spin direction
 
-## Acces ESP USB connector
+## Access ESP USB connector
 
 Since it's very compact, we need USB angled connectors.
 
 The connectors we bought are 18 x 13 x 7 mm.
 
-## Final board dimensions
+## Final PCB v1.0.0
 
-110x110mm
+Dimensions: 110x110mm
+
+Possible issues:
+
+- add capas to decouple power lines near to important components (MCU, sensors)
+- are we using the USB pins as GPIO and they would need to be reconfigured?
+- do the murata buzzers work as expected?
 
 ## Links
 

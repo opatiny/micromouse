@@ -57,7 +57,13 @@
 ### 08 - 14
 
 - ordered ball bearings set on polulu for custom caster wheel cause the ones we have are to high
-- finished finnding footprints and 3D models for kicad
+- finished finding footprints and 3D models for kicad
 - model most of 3D parts in solidworks
 - push button task
 - X1 encoder task works but not X4 yet (will have 4x greater resolution, counting all edge changes)
+- PCB layout mostly finished and asked for review from chevallier
+
+### 15 - 22
+
+- finished PCB v1.0.0 and ordered on PCBway!
+- mainly finish report state of the art
