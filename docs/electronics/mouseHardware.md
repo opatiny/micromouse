@@ -24,7 +24,7 @@
 
 - Reference: DRV8833 Dual Motor Driver Carrier
 - Manufacturer: Polulu
-- Current: max 1.2A output per motor
+- Current: max 1.5 Arms output per motor
 - Operating voltage: 2.7 to 10.8 V
 - Link: https://www.pololu.com/product/2130
 

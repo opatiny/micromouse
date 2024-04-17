@@ -29,30 +29,30 @@ alpha = amax/r
 
 %% Total inertia relative to the motors
 % variables
-M = 0.3; % kg , total robot mass
+M = 0.15; % kg , total robot mass
 Jmot = 1e-7; % kgm^2 -> rotor inertia, approx 1gcm^2 (estimation random maxon motor)
 Jred = 0; % no gearbox
 i = 1; % - , gearbox reduction
 eta = 1; % gearbox efficiency
-eta_floor = 1; % - , floor efficiency -> we neglect the rolling resistance
-
 % wheel inertia estimation
-m_wheel = 0.025; % kg
+m_wheel = 0.003; % kg
+
 Jwheel = 1/2 * m_wheel * r^2; % approximate as full cylinder
 
-Jrtot = Jmot + Jred + 1/(eta*i^2)*(Jwheel + M*r^2/(2*eta_floor));
+Jrtot = Jmot + Jred + 1/(eta*i^2)*(Jwheel + M*r^2/2)
 
 %% Maximum torque
-M_mot = Jrtot * alpha
+Tfr = 0; % friction torque
+T_mot = Jrtot * alpha - Tfr
 
 %% Maximal mechanical power
-Pmec = omega * M_mot
+Pmec = omega * T_mot
 % Pel = U*I 
 
 %% Maximal acceleration depending on friction coefficient
 % if the acceleration is bigger the wheels will slip
 mu0 = 0.8; % -
-N = 4; % -, total number of wheels
+N = 4; % -, total number of wheels (points touching the floor)
 M_mot_max = r*mu0*M*g/N
 alpha_max = M_mot_max/(eta*i*Jrtot); % rad/s^2
 a_max = alpha_max*r % m/s^2

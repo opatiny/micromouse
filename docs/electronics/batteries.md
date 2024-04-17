@@ -27,8 +27,20 @@ To charge our batteries:
 - set Cells to 2S
   Set the charging current to
 
-# Important notice for LiPo batteries
+## Important notice for LiPo batteries
 
 - do not discharge batteries more than 70% of nominal capacity (draw max 700mAh from a 1000mAh battery)
 - never let voltage of the cells drop below 2.6V -° in our case we must get a warning when voltage is approaching 5.2V
 - our battery current should not exceed 1C -> do not charge with more than 1.1 A!!
+
+## Micromouse power consumption
+
+Power consumption of the different elements of the mouse:
+
+- ESP32: we estimate at around 300 mA
+  - note: wifi can use up to 300mA
+- Motors: max 0.75 A per motor
+- Distance sensors: 16-18 mA when ranging
+- Accelerometer: ~4mA max
+- Encoders: operating supply current max 3.5 mA per hall effect sensor
+- Motors driver: 1.7 - 3 mA
