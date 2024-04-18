@@ -37,3 +37,10 @@ Motor speed from 0 to 255.
 - length: 1 s
 - sampling: 5 ms
 - task priority: 2
+
+## `distanceSensors1.csv`
+
+Using breadboard with 2 sensors to see what the measurements look like.
+
+- constant distance of 250 mm from edge of board
+- measurements every second
