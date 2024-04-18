@@ -3,8 +3,8 @@ clear; clc; close all;
 
 %% Variables
 nbSensors = 2;
-distance = 250; % mm, true distance
-offsets = [6 15]; % mm, Offsets from edge of the bord
+distance = 250; % mm, true distance from edge of board
+offsets = [6 15]; % mm, offsets from edge of the board
 
 %% Load data
 data = readtable('./data/distanceSensorsConstant1.csv');
