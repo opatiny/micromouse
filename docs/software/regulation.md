@@ -30,7 +30,7 @@ Steps:
 ## PID theory
 
 - P: proportional term, corrects present error
-- I: integral term, corrects past error
+- I: integral term, corrects past error≤
 - D: differential term, corrects future error
 
 ## Phase lead controller: an alternative to PID or PD
@@ -41,3 +41,4 @@ Steps:
 
 - visual explanation of PID regulator: https://www.youtube.com/watch?v=4Y7zG48uHRo
 - PID equation IEEE course: https://docs.google.com/presentation/d/19loBpku__17k4MO-2T24BOqiYk6qPrbNBHbNcyRvOSU/edit#slide=id.g190c6a9e1b4_0_268
+- example of bdc motor on esp32 s3 with PID!!! https://github.com/espressif/esp-idf/tree/v4.4/examples/peripherals/mcpwm/mcpwm_brushed_dc_control

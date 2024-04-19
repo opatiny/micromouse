@@ -6,6 +6,8 @@
 - Manufacturer: Espressif
 - Flash: 8 Mb
 - RAM: 8 Mb
+- CPU freqency: up to 240MHz
+- SPI clock frequency: max 80 MHz by default
 - Wireless: WiFi and BLuetooth
 - Link: https://www.mouser.de/ProductDetail/356-32S3DEVKTC1UN8R8
 
@@ -15,6 +17,7 @@
 - Manufacturer: Polulu
 - Voltage: 12V
 - Gearbox ratio: 30:1
+- Exact gearbox ratio: 29.861:1
 - No-load: 1100 rpm, 0.08 A
 - Stall: 38 mNm, 0.75 A
 - Max power: 1.1 W
@@ -26,6 +29,7 @@
 - Manufacturer: Polulu
 - Current: max 1.5 Arms output per motor
 - Operating voltage: 2.7 to 10.8 V
+- Current control max frequency $f_{PWM}$: 50 kHz
 - Link: https://www.pololu.com/product/2130
 
 ## Encoders
