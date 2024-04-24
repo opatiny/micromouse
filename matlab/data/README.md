@@ -1,8 +1,10 @@
 # Information about the data csv files
 
-Motor speed from 0 to 255.
+Motor speed absolute value from 0 to 255.
 
-## `batteryVoltage1.csv`
+## Battery voltage when motors speed varies quickly
+
+### `batteryVoltage1.csv`
 
 - motor: 1
 - motor speed: 200
@@ -10,8 +12,9 @@ Motor speed from 0 to 255.
 - length: 1 s
 - sampling: 20 ms
 - task priority: 0
+- battery: 3S AAA batteries
 
-## `batteryVoltage2.csv`
+### `batteryVoltage2.csv`
 
 - motor: 1
 - motor speed: 200
@@ -19,8 +22,9 @@ Motor speed from 0 to 255.
 - length: 1 s
 - sampling: 5 ms
 - task priority: 0
+- battery: 3S AAA batteries
 
-## `batteryVoltage3.csv`
+### `batteryVoltage3.csv`
 
 - motor: 1
 - motor speed: 200
@@ -28,8 +32,9 @@ Motor speed from 0 to 255.
 - length: 1 s
 - sampling: 1 ms
 - task priority: 2
+- battery: 3S AAA batteries
 
-## `batteryVoltage4.csv`
+### `batteryVoltage4.csv`
 
 - motor: 1
 - motor speed: 200
@@ -37,15 +42,18 @@ Motor speed from 0 to 255.
 - length: 1 s
 - sampling: 5 ms
 - task priority: 2
+- battery: 3S AAA batteries
 
-## `distanceSensorsConstant1.csv`
+## Analyse distance sensors results
+
+### `distanceSensorsConstant1.csv`
 
 Using breadboard with 2 sensors to see what the measurements look like.
 
 - constant distance of 250 mm from edge of board
 - measurements every second
 
-## `distanceSensorsCalibration1.csv`
+### `distanceSensorsCalibration1.csv`
 
 Using breadboard with 2 sensors to see what the measurements look like when distance varied.
 
