@@ -63,7 +63,16 @@
 - X1 encoder task works but not X4 yet (will have 4x greater resolution, counting all edge changes)
 - PCB layout mostly finished and asked for review from chevallier
 
-### 15 - 22
+### 15 - 21
 
+- no news from chevallier
 - finished PCB v1.0.0 and ordered on PCBway!
-- mainly finish report state of the art
+- globally finished report state of the art
+- design and print springy bumper
+- asked for access to a workshop but didn't actually get it
+- create calibration procedure for distance sensors using button -> measured sensors data to see how it looks
+
+### 22-28
+
+- problems with custom clearance of the PCBs delayed delivery
+- managed to make X4 encoding work
