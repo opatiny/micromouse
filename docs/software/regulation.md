@@ -30,7 +30,7 @@ Steps:
 ## PID theory
 
 - P: proportional term, corrects present error
-- I: integral term, corrects past error≤
+- I: integral term, corrects past error
 - D: differential term, corrects future error
 
 ## Phase lead controller: an alternative to PID or PD

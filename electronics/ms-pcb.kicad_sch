@@ -6,7 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "Algernon Micromouse PCB")
-		(rev "v0.1")
+		(date "2024-04-24")
+		(rev "v1.0.0")
+		(company "OTH Regensburg / HEIG-VD")
 	)
 	(lib_symbols
 		(symbol "BM06B-SRSS-TB_LF__SN__1"
@@ -8888,7 +8890,7 @@
 	)
 	(symbol
 		(lib_id "Graphic:Logo_Open_Hardware_Small")
-		(at 187.96 173.99 0)
+		(at 276.86 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8897,7 +8899,7 @@
 		(fields_autoplaced yes)
 		(uuid "52c8101a-c163-49b2-ac62-50f199c47acc")
 		(property "Reference" "#LOGO1"
-			(at 187.96 167.005 0)
+			(at 276.86 167.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8906,7 +8908,7 @@
 			)
 		)
 		(property "Value" "Logo_Open_Hardware_Small"
-			(at 187.96 179.705 0)
+			(at 276.86 179.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8915,7 +8917,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 173.99 0)
+			(at 276.86 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8924,7 +8926,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 173.99 0)
+			(at 276.86 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8933,7 +8935,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 173.99 0)
+			(at 276.86 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)

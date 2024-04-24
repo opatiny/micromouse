@@ -21,14 +21,14 @@ p = 2*pi*r % approx 10cm, wheel perimeter
 distanceStep = p/cprWheel*1000 % approx 0.3 mm
 angularStepDeg = 360/cprWheel % 1 degree
 
-%% Min delay betewen two counts
+%% Min delay betewen two counts of an encoder
 
 n_nom = n_nom_gb*i
 
 w_nom = n_nom *pi/30; % rad/s
 angularStepRad = deg2rad(angularStepDeg);
 
-delta_t = angularStepRad/w_nom % s
+delta_t = angularStepRad/w_nom % s, time between two transitions of encoder pin
 
 encoderFrequency = 1/delta_t % approx 200kHz
 
