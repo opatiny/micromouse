@@ -5,7 +5,7 @@ clear; clc; close all;
 % speed 200
 % movement length: 1s
 
-data = readtable('./data/batteryVoltage4.csv');
+data = readtable('./data/batteryVoltage5.csv');
 time = data.time/1000;
 voltage = data.voltage/1000;
 leftMode = data.leftMode;

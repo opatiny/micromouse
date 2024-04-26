@@ -44,6 +44,17 @@ Motor speed absolute value from 0 to 255.
 - task priority: 2
 - battery: 3S AAA batteries
 
+### `batteryVoltage4.csv`
+
+- motor: 1
+- motor speed: 100
+- profile: rectangle
+- length: 1 s
+- sampling: 5 ms
+- task priority: 2
+- battery: LiPo battery 2S1P
+- added 0.1uF ceramic capacitors on motor terminals
+
 ## Analyse distance sensors results
 
 ### `distanceSensorsConstant1.csv`
@@ -59,3 +70,54 @@ Using breadboard with 2 sensors to see what the measurements look like when dist
 
 - distance varied from 0 to 450 mm with 50mm steps (from edge of board)
 - using the push button to measure when required
+
+## Analyse encoders data
+
+### `encoders1.csv`
+
+- profile: rectangle
+- max speed: 100
+- movement length: 1 s
+- encoding: X4
+- sampling: 5 ms
+
+### `encoders2.csv`
+
+- profile: trapeze
+- ramp delay: 1
+- max speed: 100
+- movement length: 1 s
+- encoding: X4
+- sampling: 5 ms
+
+### `encoders3.csv`
+
+- profile: step response
+- max speed: 100
+- encoding: X4
+- sampling: 5 ms
+
+### `encoders4.csv`
+
+- profile: trapeze
+- ramp delay: 5
+- max speed: 100
+- movement length: 1 s
+- encoding: X4
+- sampling: 5 ms
+
+### `encoders5.csv`
+
+- profile: step response
+- max speed: 255
+- encoding: X4
+- sampling: 5 ms
+
+### `encoders6.csv`
+
+- profile: trapeze
+- ramp delay: 10
+- max speed: 100
+- movement length: 1 s
+- encoding: X4
+- sampling: 5 ms
