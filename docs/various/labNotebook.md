@@ -76,3 +76,9 @@
 
 - problems with custom clearance of the PCBs delayed delivery
 - managed to make X4 encoding work
+- worked on motor control
+  - can go forward and backward at desired speed with ramp
+  - can move N degrees
+- finally received PCBs on saturday!
+
+### 29 - 05

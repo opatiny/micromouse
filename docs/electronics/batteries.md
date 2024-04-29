@@ -30,7 +30,7 @@ To charge our batteries:
 ## Important notice for LiPo batteries
 
 - do not discharge batteries more than 70% of nominal capacity (draw max 700mAh from a 1000mAh battery)
-- never let voltage of the cells drop below 2.6V -° in our case we must get a warning when voltage is approaching 5.2V
+- never let voltage of the cells drop below 2.6V -> in our case we must get a warning when voltage is approaching 5.2V
 - our battery current should not exceed 1C -> do not charge with more than 1.1 A!!
 
 ## Micromouse power consumption

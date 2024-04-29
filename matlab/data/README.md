@@ -62,7 +62,8 @@ Motor speed absolute value from 0 to 255.
 Using breadboard with 2 sensors to see what the measurements look like.
 
 - constant distance of 250 mm from edge of board
-- measurements every second
+- measurements every second using N times DELAY
+- timing budget: 140 ms
 
 ### `distanceSensorsCalibration1.csv`
 
@@ -70,6 +71,7 @@ Using breadboard with 2 sensors to see what the measurements look like when dist
 
 - distance varied from 0 to 450 mm with 50mm steps (from edge of board)
 - using the push button to measure when required
+- timing budget: 140 ms
 
 ## Analyse encoders data
 

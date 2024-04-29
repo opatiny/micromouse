@@ -2207,7 +2207,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_3V3"
+		(property "Value" "BLUE"
 			(at 0 1.82 180)
 			(layer "F.Fab")
 			(uuid "7d8fc64d-fa14-4cbe-b4e3-bc848d629a89")
@@ -4554,7 +4554,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_VBAT"
+		(property "Value" "GREEN"
 			(at 0 1.82 0)
 			(layer "F.Fab")
 			(uuid "7329f459-b463-42d8-a3bb-3a254c17a206")
@@ -4786,7 +4786,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "5k"
 			(at 0 1.82 180)
 			(layer "F.Fab")
 			(uuid "862aed12-179e-401a-89f5-3366ed041353")
@@ -5449,7 +5449,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "40k"
 			(at 0 1.82 0)
 			(layer "F.Fab")
 			(uuid "31239ab8-2f41-4ef9-b098-c79c9f4404fd")
@@ -7305,7 +7305,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 2.5 90)
+			(at 0 1.905 90)
 			(layer "B.Fab")
 			(uuid "e32813e1-ba96-4a9c-9a69-dcc0bf0afe06")
 			(effects
@@ -9078,7 +9078,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 -1.82 -90)
+			(at -0.085 1.905 -90)
 			(layer "B.Fab")
 			(uuid "57c6fd3d-eca8-406d-88c4-3618c0c78621")
 			(effects

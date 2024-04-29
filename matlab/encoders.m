@@ -37,3 +37,14 @@ nbClockTics = cpuSpeed/encoderFrequency
 %% H bridge 
 % counter period
 clockCycles = cpuSpeed/hBridgeMaxFreq % 4.8 kHz
+
+%% Nb rotations till overflow
+intType = 64;
+
+maxValue = 2.^(intType-1)-1
+
+nbTurns = floor(maxValue./cprWheel)
+
+% 16 -> 91 rotations
+% 32 -> approx. 16 millions
+% 64 -> 2.56e16
