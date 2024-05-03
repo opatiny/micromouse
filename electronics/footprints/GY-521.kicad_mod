@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -3 -11.5 0)
+		(at 0.302 -11.1825 0)
 		(layer "F.SilkS")
 		(uuid "fb661f79-5f41-4354-9589-2b2f2511ad25")
 		(effects
@@ -15,7 +15,7 @@
 		)
 	)
 	(property "Value" "GY-521"
-		(at 0 0 0)
+		(at 3.302 0.3175 0)
 		(layer "F.Fab")
 		(uuid "a90e310e-4632-4511-9a12-0283a247fb57")
 		(effects
@@ -26,7 +26,7 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 0 0 0)
+		(at 3.302 0.3175 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -38,7 +38,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at 3.302 0.3175 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -50,7 +50,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at 3.302 0.3175 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -63,8 +63,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -11.43 -10.795)
-		(end 4.445 -10.795)
+		(start -8.128 -10.4775)
+		(end 7.747 -10.4775)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -73,8 +73,8 @@
 		(uuid "1ce480fa-46e7-42ab-a290-40aeaa71dd1b")
 	)
 	(fp_line
-		(start -11.43 10.16)
-		(end -11.43 -10.795)
+		(start -8.128 10.4775)
+		(end -8.128 -10.4775)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -83,8 +83,8 @@
 		(uuid "5e949f90-1667-42d4-b0ea-e6da45e326a5")
 	)
 	(fp_line
-		(start -2.54 5.08)
-		(end -3.175 5.715)
+		(start 0.762 5.3975)
+		(end 0.127 6.0325)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -93,8 +93,8 @@
 		(uuid "02252907-8003-4eba-8505-27477fabde2b")
 	)
 	(fp_line
-		(start -2.54 5.08)
-		(end -1.905 5.715)
+		(start 0.762 5.3975)
+		(end 1.397 6.0325)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -103,8 +103,8 @@
 		(uuid "d34af8c6-7562-4380-a4b1-8f858eef5aba")
 	)
 	(fp_line
-		(start -2.54 8.89)
-		(end -2.54 5.08)
+		(start 0.762 9.2075)
+		(end 0.762 5.3975)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -113,8 +113,8 @@
 		(uuid "99878f65-356b-4023-a799-89b0d84e4327")
 	)
 	(fp_line
-		(start -2.54 8.89)
-		(end 1.27 8.89)
+		(start 0.762 9.2075)
+		(end 4.572 9.2075)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -123,8 +123,8 @@
 		(uuid "b497d0d5-d228-4d08-b896-68c0e1753864")
 	)
 	(fp_line
-		(start 1.27 8.89)
-		(end 0.635 8.255)
+		(start 4.572 9.2075)
+		(end 3.937 8.5725)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -133,8 +133,8 @@
 		(uuid "995bab16-44fc-457b-b040-4fc7e69639a7")
 	)
 	(fp_line
-		(start 1.27 8.89)
-		(end 0.635 9.525)
+		(start 4.572 9.2075)
+		(end 3.937 9.8425)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -143,8 +143,8 @@
 		(uuid "2a2aad4c-ef37-492c-a259-4a93175fd0f3")
 	)
 	(fp_line
-		(start 4.445 -10.795)
-		(end 4.445 10.16)
+		(start 7.747 -10.4775)
+		(end 7.747 10.4775)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -153,8 +153,8 @@
 		(uuid "d94a25f1-eed7-44f0-a2c9-a75c165009ab")
 	)
 	(fp_line
-		(start 4.445 10.16)
-		(end -11.43 10.16)
+		(start 7.747 10.4775)
+		(end -8.128 10.4775)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -163,7 +163,7 @@
 		(uuid "6b69526a-3f61-42fb-a8d8-c3143232152d")
 	)
 	(fp_text user "x"
-		(at 1.905 8.89 0)
+		(at 5.207 9.2075 0)
 		(layer "F.SilkS")
 		(uuid "4f8a8d24-8d22-4414-bfd8-5d73057b9b60")
 		(effects
@@ -174,7 +174,7 @@
 		)
 	)
 	(fp_text user "y"
-		(at -1.27 5.08 0)
+		(at 2.032 5.3975 0)
 		(layer "F.SilkS")
 		(uuid "7edd9e84-641b-446f-b966-aa1dea9da3f1")
 		(effects
@@ -185,7 +185,7 @@
 		)
 	)
 	(fp_text user "ITG/MPU"
-		(at -3.5 11 0)
+		(at -0.198 11.3175 0)
 		(layer "F.SilkS")
 		(uuid "8dc3eea5-68d5-4b1b-9aee-83c93f0b3618")
 		(effects
@@ -195,72 +195,72 @@
 			)
 		)
 	)
-	(pad "ADO" thru_hole oval
-		(at -8.89 6.35)
-		(size 3.556 1.778)
+	(pad "ADO" thru_hole circle
+		(at -6.096 6.35)
+		(size 1.778 1.778)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
 		(uuid "0c463b2a-b522-4302-9875-0c63fb89b341")
 	)
-	(pad "GND" thru_hole oval
-		(at -8.89 -6.35)
-		(size 3.556 1.778)
+	(pad "GND" thru_hole circle
+		(at -6.096 -6.35)
+		(size 1.778 1.778)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
 		(uuid "9a307db1-1923-4e57-90c2-89adf569a981")
 	)
-	(pad "INT" thru_hole oval
-		(at -8.89 8.89)
-		(size 3.556 1.778)
+	(pad "INT" thru_hole circle
+		(at -6.096 8.89)
+		(size 1.778 1.778)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
 		(uuid "746d8727-9cdf-4509-bb00-653c9f32e460")
 	)
-	(pad "SCL" thru_hole oval
-		(at -8.89 -3.81)
-		(size 3.556 1.778)
+	(pad "SCL" thru_hole circle
+		(at -6.096 -3.81)
+		(size 1.778 1.778)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
 		(uuid "716097a8-ba05-4a0d-93f4-40b69f3849be")
 	)
-	(pad "SDA" thru_hole oval
-		(at -8.89 -1.27)
-		(size 3.556 1.778)
+	(pad "SDA" thru_hole circle
+		(at -6.096 -1.27)
+		(size 1.778 1.778)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
 		(uuid "45c29c64-07f2-4752-961d-03bb6b75f610")
 	)
-	(pad "VCC" thru_hole oval
-		(at -8.89 -8.89)
-		(size 3.556 1.778)
+	(pad "VCC" thru_hole rect
+		(at -6.096 -8.89)
+		(size 1.778 1.778)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
 		(uuid "bb8246db-67a7-4f16-93cd-a46b36509107")
 	)
-	(pad "XCL" thru_hole oval
-		(at -8.89 3.81)
-		(size 3.556 1.778)
+	(pad "XCL" thru_hole circle
+		(at -6.096 3.81)
+		(size 1.778 1.778)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
 		(uuid "f323deab-36db-451d-9233-7a7a0426a8a5")
 	)
-	(pad "XDA" thru_hole oval
-		(at -8.89 1.27)
-		(size 3.556 1.778)
+	(pad "XDA" thru_hole circle
+		(at -6.096 1.27)
+		(size 1.778 1.778)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -269,7 +269,7 @@
 	)
 	(model "${KIPRJMOD}/3dModels/GY-521.stp"
 		(offset
-			(xyz -2.6 0.25 3.2)
+			(xyz -0.060000007 0.250000008 3.200000001)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -280,7 +280,7 @@
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.step"
 		(offset
-			(xyz -9 -8.5 2.5)
+			(xyz -6.223 -8.763 2.500000004)
 		)
 		(scale
 			(xyz 1 1 1)
