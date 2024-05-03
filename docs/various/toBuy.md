@@ -34,6 +34,10 @@
 
 - 4x lipo battery: https://www.reichelt.de/akku-pack-li-polymer-7-4-v-1100-mah-rd-xt-1100-s2-p336956.html?&trstct=pol_8&nbc=1
 
+  03.05.2024
+
+- 50 x NSR0320MW2T1G Schottkydiode, 20 V, 1 A, SOD-323
+
 ## Exp Tech
 
 2024.03.22

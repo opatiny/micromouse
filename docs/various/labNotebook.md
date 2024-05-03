@@ -82,3 +82,10 @@
 - finally received PCBs on saturday!
 
 ### 29 - 05
+
+- long week this week, one of the downs of the project...
+- asssembly of PCB v1.0.0 on monday
+- a lot of problems with switching to the new MCU, but managed to debug all of them by the end of the weeks
+- corrected kicad for next version of PCB
+- managed to make all threads work on Algernon except motors
+- next monday: double check the new PCB and order on Aisler
