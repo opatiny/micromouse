@@ -7,6 +7,10 @@
 - 2x set of silicon wheels 32mm diameter: https://www.pololu.com/product/1087/specs
 - 2x speed controller?: https://www.pololu.com/product/3142 -> USELESS!
 
+Polulu order 2: 2024.05.06
+
+Motors, drivers, jst cables, wheels and brackets.
+
 ## Tiny electonics
 
 11.03.2024
@@ -28,6 +32,18 @@
 
 - set of ball bearings (for custom caster wheel)
 
+- XT60 connectors
+- JST SH connectors
+
+- resistors book
+- ceramic capacitors set
+- electrolytic capacitors set
+
+  2024.05.06
+
+- tweezers
+- m2x8mm screws
+
 ## Reichelt
 
 19.03.2024
@@ -48,7 +64,7 @@
 
 25.023.2024
 
-- smaller buzzers
+- smaller buzzers Murata
 - push buttons (smd and through hole for debug)
 - new esp32-s3 boards by espressif
 
