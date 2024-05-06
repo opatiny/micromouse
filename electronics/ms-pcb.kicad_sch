@@ -5428,7 +5428,7 @@
 		(uuid "608cd474-e71d-4d4c-b713-e842ca1ea287")
 	)
 	(no_connect
-		(at 24.13 135.89)
+		(at 20.32 135.89)
 		(uuid "645158ae-5eb2-49cb-a32b-f1d58ca31cf8")
 	)
 	(no_connect
@@ -5448,7 +5448,7 @@
 		(uuid "95c25a5e-f249-4efe-a2b9-25c8b23dd3d5")
 	)
 	(no_connect
-		(at 24.13 125.73)
+		(at 20.32 125.73)
 		(uuid "9636b30f-253d-425a-aadf-09ac2d58a5e0")
 	)
 	(no_connect
@@ -5757,7 +5757,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 129.54) (xy 45.72 129.54)
+			(xy 54.61 129.54) (xy 52.07 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5945,6 +5945,16 @@
 			(type default)
 		)
 		(uuid "4932a20a-553f-4bae-a6cd-6de8e9ae9a27")
+	)
+	(wire
+		(pts
+			(xy 36.83 124.46) (xy 36.83 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b951c4-8d53-4a35-878f-39fd5c133f82")
 	)
 	(wire
 		(pts
@@ -6275,6 +6285,16 @@
 			(type default)
 		)
 		(uuid "6fb87483-98af-410d-afca-196f906a13f7")
+	)
+	(wire
+		(pts
+			(xy 36.83 134.62) (xy 36.83 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70c44ece-f6f9-4041-a47a-24c27d316a88")
 	)
 	(wire
 		(pts
@@ -6663,7 +6683,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 132.08) (xy 45.72 132.08)
+			(xy 54.61 132.08) (xy 52.07 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6843,7 +6863,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 129.54) (xy 45.72 127)
+			(xy 52.07 129.54) (xy 52.07 127)
 		)
 		(stroke
 			(width 0)
@@ -7064,7 +7084,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 132.08) (xy 45.72 134.62)
+			(xy 52.07 132.08) (xy 52.07 134.62)
 		)
 		(stroke
 			(width 0)
@@ -8775,7 +8795,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 134.62 0)
+		(at 52.07 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8784,7 +8804,7 @@
 		(fields_autoplaced yes)
 		(uuid "062f3ecd-a9a6-4467-bf4f-8cd570b94bef")
 		(property "Reference" "#PWR025"
-			(at 45.72 140.97 0)
+			(at 52.07 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8793,7 +8813,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 139.7 0)
+			(at 52.07 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8801,7 +8821,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 134.62 0)
+			(at 52.07 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8810,7 +8830,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 134.62 0)
+			(at 52.07 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8819,7 +8839,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 134.62 0)
+			(at 52.07 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9140,6 +9160,76 @@
 			(project "ms-pcb"
 				(path "/5a2e0bf0-b2b3-43a5-bee5-ac51f9bc0574"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 36.83 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1699d9ee-ef34-457e-a596-f04ae3480387")
+		(property "Reference" "C3"
+			(at 40.64 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220uF"
+			(at 40.64 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
+			(at 37.7952 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 36.83 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d01e4f3b-101b-4c5f-8ec5-f4dca9704f83")
+		)
+		(pin "1"
+			(uuid "b994c6a0-6236-40d1-af93-a1b55594ca7b")
+		)
+		(instances
+			(project "ms-pcb"
+				(path "/5a2e0bf0-b2b3-43a5-bee5-ac51f9bc0574"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -9874,6 +9964,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 36.83 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46877dda-b659-49ce-81f9-35c13c21ecc4")
+		(property "Reference" "#PWR041"
+			(at 36.83 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 36.83 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 36.83 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e98211eb-b936-4f40-a547-611ad3649323")
+		)
+		(instances
+			(project "ms-pcb"
+				(path "/5a2e0bf0-b2b3-43a5-bee5-ac51f9bc0574"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 119.38 82.55 0)
 		(unit 1)
@@ -10079,7 +10235,7 @@
 		(lib_id "Graphic:Logo_Open_Hardware_Small")
 		(at 276.86 173.99 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -10122,15 +10278,6 @@
 			)
 		)
 		(property "Description" "Open Hardware logo, small"
-			(at 276.86 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 276.86 173.99 0)
 			(effects
 				(font
@@ -10564,7 +10711,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 24.13 130.81 0)
+		(at 20.32 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10573,7 +10720,7 @@
 		(fields_autoplaced yes)
 		(uuid "65fda958-5ba0-4bb9-8fa3-a08fd16f8865")
 		(property "Reference" "BT1"
-			(at 27.94 128.9684 0)
+			(at 24.13 128.9684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10582,7 +10729,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 27.94 131.5084 0)
+			(at 24.13 131.5084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10591,7 +10738,7 @@
 			)
 		)
 		(property "Footprint" "footprints:LiPo_2S1P_Battery"
-			(at 24.13 129.286 90)
+			(at 20.32 129.286 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10600,7 +10747,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 129.286 90)
+			(at 20.32 129.286 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10609,7 +10756,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 24.13 130.81 0)
+			(at 20.32 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11584,7 +11731,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 45.72 127 0)
+		(at 52.07 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11593,7 +11740,7 @@
 		(fields_autoplaced yes)
 		(uuid "88582f13-a48e-47ea-ac4a-a1edbcb2bf66")
 		(property "Reference" "#PWR023"
-			(at 45.72 130.81 0)
+			(at 52.07 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11602,7 +11749,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 45.72 121.92 0)
+			(at 52.07 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11610,7 +11757,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 127 0)
+			(at 52.07 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11619,7 +11766,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 127 0)
+			(at 52.07 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11628,7 +11775,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 45.72 127 0)
+			(at 52.07 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11972,7 +12119,7 @@
 	)
 	(symbol
 		(lib_id "XT60-M:XT60-M")
-		(at 53.34 132.08 0)
+		(at 59.69 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11981,7 +12128,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a32b10d-dbd5-4b1a-ba9f-cad46ec3e360")
 		(property "Reference" "J3"
-			(at 62.23 129.5399 0)
+			(at 68.58 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11990,7 +12137,7 @@
 			)
 		)
 		(property "Value" "XT60-M"
-			(at 62.23 132.0799 0)
+			(at 68.58 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11999,7 +12146,7 @@
 			)
 		)
 		(property "Footprint" "footprints:AMASS_XT60-M"
-			(at 54.864 147.32 0)
+			(at 61.214 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12009,7 +12156,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 132.08 0)
+			(at 59.69 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12018,7 +12165,7 @@
 			)
 		)
 		(property "Description" "\nPlug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V\n"
-			(at 54.864 147.32 0)
+			(at 61.214 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12028,7 +12175,7 @@
 			)
 		)
 		(property "MF" "AMASS"
-			(at 53.34 132.08 0)
+			(at 59.69 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12038,7 +12185,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "16.00 mm"
-			(at 56.134 156.718 0)
+			(at 62.484 156.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12048,7 +12195,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 53.34 132.08 0)
+			(at 59.69 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12058,7 +12205,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 53.34 132.08 0)
+			(at 59.69 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12068,7 +12215,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/XT60-M/AMASS/view-part/?ref=eda"
-			(at 54.864 147.32 0)
+			(at 61.214 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12078,7 +12225,7 @@
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
-			(at 56.134 156.718 0)
+			(at 62.484 156.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12088,7 +12235,7 @@
 			)
 		)
 		(property "PARTREV" "V1.2"
-			(at 53.34 132.08 0)
+			(at 59.69 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12098,7 +12245,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60-M/AMASS/view-part/?ref=snap"
-			(at 54.864 147.32 0)
+			(at 61.214 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12108,7 +12255,7 @@
 			)
 		)
 		(property "MP" "XT60-M"
-			(at 53.34 132.08 0)
+			(at 59.69 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12118,7 +12265,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 56.134 156.718 0)
+			(at 62.484 156.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12128,7 +12275,7 @@
 			)
 		)
 		(property "MANUFACTURER" "AMASS"
-			(at 53.34 132.08 0)
+			(at 59.69 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12138,7 +12285,7 @@
 			)
 		)
 		(property "Description_1" "\nPlug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V\n"
-			(at 53.848 139.954 0)
+			(at 60.198 139.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14613,6 +14760,72 @@
 			(project "ms-pcb"
 				(path "/5a2e0bf0-b2b3-43a5-bee5-ac51f9bc0574"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 36.83 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e63bea1a-d5f2-4924-afb1-f82302433dc8")
+		(property "Reference" "#PWR042"
+			(at 36.83 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 36.83 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "516c50fc-bb8d-4e5e-9878-6e9615fac0ea")
+		)
+		(instances
+			(project "ms-pcb"
+				(path "/5a2e0bf0-b2b3-43a5-bee5-ac51f9bc0574"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)

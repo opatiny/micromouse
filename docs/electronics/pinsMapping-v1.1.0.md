@@ -23,7 +23,7 @@
 | J1_15      | 9          | GPIO9     | Left motor, pin 2                           |
 | J1_16      | 10         | GPIO10    | Right motor, pin 2                          |
 | J1_17      | 11         | GPIO11    | Right motor, pin 1                          |
-| J1_18      | 12         | GPIO12    | Front ToF XSHUT                             |
+| J1_18      | 12         | GPIO12    |                                             |
 | J1_19      | 13         | GPIO13    | Encoder right, pin 1                        |
 | J1_20      | 14         | GPIO14    | Encoder right, pin 2                        |
 | J1_21      | 5V         | 5V0       | Connected to battery through schottky diode |
@@ -38,7 +38,7 @@ Note: ToF are VL53L1X time of flight distance sensors.
 | J3_1       | G          | GND      | Common ground              |
 | J3_2       | TX         | GPIO43   |                            |
 | J3_3       | RX         | GPIO44   |                            |
-| J3_4       | 1          | GPIO1    | Front-left ToF XSHUT       |
+| J3_4       | 1          | GPIO1    |                            |
 | J3_5       | 2          | GPIO2    | Blink debug LED            |
 | J3_6       | 42         | GPIO42   |                            |
 | J3_7       | 41         | GPIO41   |                            |
@@ -48,13 +48,13 @@ Note: ToF are VL53L1X time of flight distance sensors.
 | J3_11      | 37         | GPIO37   | Not usable (memory)!!      |
 | J3_12      | 26         | GPIO36   | Not usable (memory)!!      |
 | J3_13      | 35         | GPIO35   | Not usable (memory)!!      |
-| J3_14      | 0          | GPIO0    |                            |
+| J3_14      | 0          | GPIO0    | Front ToF XSHUT            |
 | J3_15      | 45         | GPIO45   |                            |
 | J3_16      | 48         | GPIO48   | MCU 3.3V measurement (VCC) |
 | J3_17      | 47         | GPIO47   | SDA                        |
 | J3_18      | 21         | GPIO21   | SCL                        |
-| J3_19      | 20         | GPIO20   | Right ToF XSHUT            |
-| J3_20      | 1          | GPIO19   | Front-right ToF XSHUT      |
+| J3_19      | 20         | GPIO20   | Front-right ToF XSHUT      |
+| J3_20      | 1          | GPIO19   | Right ToF XSHUT            |
 | J3_21      | G          | GND      | Common ground              |
 | J3_22      | G          | GND      | Common ground              |
 
