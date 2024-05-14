@@ -84,8 +84,25 @@
 ### 29 - 05
 
 - long week this week, one of the downs of the project...
-- asssembly of PCB v1.0.0 on monday
-- a lot of problems with switching to the new MCU, but managed to debug all of them by the end of the weeks
+- assembly of PCB v1.0.0 on monday
+- a lot of problems with switching to the new MCU, but managed to debug all of them by the end of the week
 - corrected kicad for next version of PCB
 - managed to make all threads work on Algernon except motors
 - next monday: double check the new PCB and order on Aisler
+
+## May
+
+### 06 - 12
+
+- on Monday, verified PCB and ordered 3 on Aisler
+- didn't work on Algernon the rest of the week (ascention)
+- except worked a bit on the report introduction
+
+### 13 - 19
+
+- fixed V1.0.0 problem with motor pin on same pins as RGB LED
+- both motors work separately
+- started writing code to control the robot movement
+- question: should I refactor the code to use classes instead of having a global state object shared between function?
+- received PCB V1.1.0 and assembled it
+- list of expenses of the project
