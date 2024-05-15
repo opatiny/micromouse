@@ -24,6 +24,13 @@ We can define a set of basic moves we would like the mouse to do
 - turn on the spot of xx degrees, negative values could be clockwise and positive anti-clockwise
 - turn of xx degrees with a given radius?
 
+## Problem with structuring the code
+
+I initially structured the code in order to have a main `state` object passed to all the functions that need it in the different tasks. Indeed, since all tasks run in parallel, I find it difficult to see how I can keep multitasking while using classes. Using classes would probably make the final interface easier, and it would therefore be a more elegant solution, but I don't see how to implement it right now.
+
+- example odometry code and robot simulator: https://www.toptal.com/robotics/programming-a-robot-an-introductory-tutorial
+- concurrent planning and execution: https://www.cs.cmu.edu/~reids/papers/tca-ambler.pdf
+
 ## Links
 
 - wheel slipping issue: https://robotics.stackexchange.com/questions/1658/implementing-slip-compensation-into-a-half-size-micromouse

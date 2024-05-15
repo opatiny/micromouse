@@ -106,3 +106,5 @@
 - question: should I refactor the code to use classes instead of having a global state object shared between function?
 - received PCB V1.1.0 and assembled it
 - list of expenses of the project
+- programmed robot to stop when obstacle detected -> it moved for the first time!!
+- start odometry task

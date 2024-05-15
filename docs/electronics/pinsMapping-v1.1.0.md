@@ -54,7 +54,7 @@ Note: ToF are VL53L1X time of flight distance sensors.
 | J3_17      | 47         | GPIO47   | SDA                        |
 | J3_18      | 21         | GPIO21   | SCL                        |
 | J3_19      | 20         | GPIO20   | Front-right ToF XSHUT      |
-| J3_20      | 1          | GPIO19   | Right ToF XSHUT            |
+| J3_20      | 19         | GPIO19   | Right ToF XSHUT            |
 | J3_21      | G          | GND      | Common ground              |
 | J3_22      | G          | GND      | Common ground              |
 
