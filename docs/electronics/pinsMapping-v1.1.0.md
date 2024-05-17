@@ -33,30 +33,30 @@
 
 Note: ToF are VL53L1X time of flight distance sensors.
 
-| Jumper pin | Silk label | Pin name | Usage                      |
-| ---------- | ---------- | -------- | -------------------------- |
-| J3_1       | G          | GND      | Common ground              |
-| J3_2       | TX         | GPIO43   |                            |
-| J3_3       | RX         | GPIO44   |                            |
-| J3_4       | 1          | GPIO1    |                            |
-| J3_5       | 2          | GPIO2    | Blink debug LED            |
-| J3_6       | 42         | GPIO42   |                            |
-| J3_7       | 41         | GPIO41   |                            |
-| J3_8       | 40         | GPIO40   | Left ToF XSHUT             |
-| J3_9       | 39         | GPIO39   | Front-left ToF XSHUT       |
-| J3_10      | 38         | GPIO38   | Not usable (RGB LED)!!     |
-| J3_11      | 37         | GPIO37   | Not usable (memory)!!      |
-| J3_12      | 26         | GPIO36   | Not usable (memory)!!      |
-| J3_13      | 35         | GPIO35   | Not usable (memory)!!      |
-| J3_14      | 0          | GPIO0    | Front ToF XSHUT            |
-| J3_15      | 45         | GPIO45   |                            |
-| J3_16      | 48         | GPIO48   | MCU 3.3V measurement (VCC) |
-| J3_17      | 47         | GPIO47   | SDA                        |
-| J3_18      | 21         | GPIO21   | SCL                        |
-| J3_19      | 20         | GPIO20   | Front-right ToF XSHUT      |
-| J3_20      | 19         | GPIO19   | Right ToF XSHUT            |
-| J3_21      | G          | GND      | Common ground              |
-| J3_22      | G          | GND      | Common ground              |
+| Jumper pin | Silk label | Pin name | Usage                                                                  |
+| ---------- | ---------- | -------- | ---------------------------------------------------------------------- |
+| J3_1       | G          | GND      | Common ground                                                          |
+| J3_2       | TX         | GPIO43   |                                                                        |
+| J3_3       | RX         | GPIO44   |                                                                        |
+| J3_4       | 1          | GPIO1    |                                                                        |
+| J3_5       | 2          | GPIO2    | Blink debug LED                                                        |
+| J3_6       | 42         | GPIO42   |                                                                        |
+| J3_7       | 41         | GPIO41   |                                                                        |
+| J3_8       | 40         | GPIO40   | Left ToF XSHUT                                                         |
+| J3_9       | 39         | GPIO39   | Front-left ToF XSHUT                                                   |
+| J3_10      | 38         | GPIO38   | Not usable (RGB LED)!!                                                 |
+| J3_11      | 37         | GPIO37   | Not usable (memory)!!                                                  |
+| J3_12      | 26         | GPIO36   | Not usable (memory)!!                                                  |
+| J3_13      | 35         | GPIO35   | Not usable (memory)!!                                                  |
+| J3_14      | 0          | GPIO0    | Front ToF XSHUT (Needs some time before used as GPIO -> used for boot) |
+| J3_15      | 45         | GPIO45   |                                                                        |
+| J3_16      | 48         | GPIO48   | MCU 3.3V measurement (VCC)                                             |
+| J3_17      | 47         | GPIO47   | SDA                                                                    |
+| J3_18      | 21         | GPIO21   | SCL                                                                    |
+| J3_19      | 20         | GPIO20   | Front-right ToF XSHUT                                                  |
+| J3_20      | 19         | GPIO19   | Right ToF XSHUT                                                        |
+| J3_21      | G          | GND      | Common ground                                                          |
+| J3_22      | G          | GND      | Common ground                                                          |
 
 - "For boards with **Octal SPI** flash/PSRAM memory embedded **ESP32-S3-WROOM-1/1U** modules, and boards with ESP32-S3-WROOM-2 modules, the **pins GPIO35, GPIO36 and GPIO37** are used for the internal communication between ESP32-S3 and SPI flash/PSRAM memory, thus **not available for external use**." - https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html
 

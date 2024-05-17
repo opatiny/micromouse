@@ -12530,7 +12530,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "10k"
 			(at 20.32 166.3699 0)
 			(effects
 				(font

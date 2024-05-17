@@ -17,3 +17,4 @@ We use freertos to run multiple tasks in parallel.
 - tasks and co-routines: https://www.freertos.org/taskandcr.html
 - freertos docs: https://www.freertos.org/a00125.html
 - round robin scheduling: https://en.wikipedia.org/wiki/Round-robin_scheduling#:~:text=Round%2Drobin%20(RR)%20is,also%20known%20as%20cyclic%20executive).
+- microseconds delay in freertos: https://www.freertos.org/FreeRTOS_Support_Forum_Archive/December_2014/freertos_Microsecond_delay_within_task_edfcdf0fj.html
