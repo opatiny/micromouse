@@ -108,3 +108,11 @@
 - list of expenses of the project
 - programmed robot to stop when obstacle detected -> it moved for the first time!!
 - start odometry task
+- hardware is finished!! -> 2 weeks earlier than planned
+
+### 20 - 26
+
+- 2 days were holidays so worked a bit less
+- add debug mode to log true rpm speed depending on speed command
+- write PID control function
+- worked on function to drive robot straight using pid on wheels speed

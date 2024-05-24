@@ -75,6 +75,8 @@ Using breadboard with 2 sensors to see what the measurements look like when dist
 
 ## Analyse encoders data
 
+Log the data the encoder for a given speed profile. All measurements were made on motor 1.
+
 ### `encoders1.csv`
 
 - profile: rectangle
@@ -123,3 +125,25 @@ Using breadboard with 2 sensors to see what the measurements look like when dist
 - movement length: 1 s
 - encoding: X4
 - sampling: 5 ms
+
+## True wheel speed vs command
+
+We want to analyse what the true wheel speed is depending on the duty cycle applied to the motor
+
+- speed (duty cycle) is a value between -256 and 255
+- the actual motors speed is in rpm
+- robot: Algernon v1.1.0
+- motors 3 (left) and 4 (right)
+- battery: LiPo battery 2S1P
+
+### `wheelSpeedCalibration1.csv`
+
+- delay between speed changes: 1s
+- speed range: [0, 255]
+- speed step: 10
+
+### `wheelSpeedCalibration1.csv`
+
+- delay between speed changes: 2s
+- speed range: [-255, 255]
+- speed step: 5
