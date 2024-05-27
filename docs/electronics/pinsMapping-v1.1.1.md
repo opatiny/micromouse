@@ -12,7 +12,7 @@
 | J1_4       | 4          | GPIO4     | Encoder left, pin 1                         |
 | J1_5       | 5          | GPIO5     | Encoder left, pin 2                         |
 | J1_6       | 6          | GPIO6     | Buzzer                                      |
-| J1_7       | 7          | GPIO7     |                                             |
+| J1_7       | 7          | GPIO7     | MCU 3.3V measurement (VCC) -> ADC2_4        |
 | J1_8       | 15         | GPIO15    |                                             |
 | J1_9       | 16         | GPIO16    |                                             |
 | J1_10      | 17         | GPIO17    | Push button                                 |
@@ -50,7 +50,7 @@ Note: ToF are VL53L1X time of flight distance sensors.
 | J3_13      | 35         | GPIO35   | Not usable (memory)!!                                                  |
 | J3_14      | 0          | GPIO0    | Front ToF XSHUT (Needs some time before used as GPIO -> used for boot) |
 | J3_15      | 45         | GPIO45   |                                                                        |
-| J3_16      | 48         | GPIO48   | MCU 3.3V measurement (VCC) -> this is not an ADC pin... ;^;            |
+| J3_16      | 48         | GPIO48   |                                                                        |
 | J3_17      | 47         | GPIO47   | SDA                                                                    |
 | J3_18      | 21         | GPIO21   | SCL                                                                    |
 | J3_19      | 20         | GPIO20   | Front-right ToF XSHUT                                                  |

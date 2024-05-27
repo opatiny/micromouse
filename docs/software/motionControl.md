@@ -35,3 +35,4 @@ I initially structured the code in order to have a main `state` object passed to
 
 - wheel slipping issue: https://robotics.stackexchange.com/questions/1658/implementing-slip-compensation-into-a-half-size-micromouse
 - reading encoder data on arduino: https://github.com/ukmars/ukmarsbot/blob/master/docs/encoder-software.md
+- types of errors in the mouse position (I should have used steppers -> much less errors): https://micromouseonline.com/micromouse-book/navigation/straights/

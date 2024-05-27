@@ -116,3 +116,9 @@
 - add debug mode to log true rpm speed depending on speed command
 - write PID control function
 - worked on function to drive robot straight using pid on wheels speed
+
+### 27 - 02
+
+## June
+
+### 03 - 09

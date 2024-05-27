@@ -5396,10 +5396,6 @@
 		(uuid "4257f2da-ffc5-461e-9ad1-b7d708013418")
 	)
 	(no_connect
-		(at 36.83 58.42)
-		(uuid "43d37108-b653-4ca4-b128-d4e1a8b4ce23")
-	)
-	(no_connect
 		(at 82.55 68.58)
 		(uuid "570a37bc-a18e-4380-a948-d4217a79fb7e")
 	)
@@ -5426,6 +5422,10 @@
 	(no_connect
 		(at 241.3 160.02)
 		(uuid "608cd474-e71d-4d4c-b713-e842ca1ea287")
+	)
+	(no_connect
+		(at 82.55 58.42)
+		(uuid "62a9f5f3-e2ac-4d8e-8d23-8ff115b0b648")
 	)
 	(no_connect
 		(at 20.32 135.89)
@@ -5562,6 +5562,16 @@
 			(type default)
 		)
 		(uuid "073bb625-7444-4610-934e-18cd48b75046")
+	)
+	(wire
+		(pts
+			(xy 30.48 58.42) (xy 36.83 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09872846-5b4f-49c4-b39a-a40af314a730")
 	)
 	(wire
 		(pts
@@ -6045,16 +6055,6 @@
 			(type default)
 		)
 		(uuid "5505154e-d47a-4d5f-8615-da740426d22a")
-	)
-	(wire
-		(pts
-			(xy 82.55 58.42) (xy 88.9 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "561bc664-3f51-43ae-9bcf-53a55f58e10c")
 	)
 	(wire
 		(pts
@@ -7555,22 +7555,22 @@
 	)
 	(global_label "Mes_VCC"
 		(shape input)
-		(at 88.9 58.42 0)
+		(at 30.48 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "370da09a-46e1-4d71-a913-341b96c4fae2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.0495 58.42 0)
+			(at 19.3305 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
