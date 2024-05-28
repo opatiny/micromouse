@@ -29,7 +29,7 @@ legend('left', 'left polyfit', 'right', 'right polyfit', 'Location','southeast')
 grid on;
 
 %% Functions to find regressions
-
+% using polyfit
 function [pNeg, pPos, fit] = findBestFit(command, speed, degree)
     % Find polynomial regressions of given degree for the three regions of the
     % data
@@ -58,4 +58,32 @@ speeds = speed(minIndex:maxIndex);
 commands = command(minIndex:maxIndex);
 p = polyfit(commands, speeds, degree);
 fit = polyval(p,commands);
+end
+
+function [p,fit] = getCustomFit(speed, command, minIndex, maxIndex)
+speeds = speed(minIndex:maxIndex);
+commands = command(minIndex:maxIndex);
+
+aOpt = lsqcurvefit(model,a0,commands, speeds)
+
+fit = polyval(p,commands);
+end
+
+function y = model(a,x)
+b = getB(a,x);
+c = getC(a,x);
+
+y = a*x^2 + b*x + c;
+end
+
+function b = getB(a,x)
+x2 = x(end);
+b = -2*x2*a;
+end
+
+
+function c = getC(a,x)
+x1 = x(0);
+x2 = x(end);
+c = a*x1*(2*x2 - x1);
 end
