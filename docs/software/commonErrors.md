@@ -4,10 +4,22 @@ Errors of the microcontroller
 
 ## Core 1 panic'ed
 
+### not enough stack
+
 The core panics which causes the device to reboot all of the time. This error is generally related to the multiple threads running in parallel. We identified two main causes:
 
 1. No `vTaskDelay` in the `while` loop: without a delay in the loop the hand can never be given to the other tasks, which causes the device to crash.
 2. Insufficient stack size of the task: If the tasks takes more memory than it was allocated it generate a stack overflow which crashes the device.
+
+### Double exception
+
+https://www.esp32.com/viewtopic.php?t=27538
+
+"A Double Exception is the result of an exception occurring within the exception handler, and might be expected to be the result of insufficient stack, or stack corruption."
+
+In my case migrating 2 threads to core 0 solved the issue.
+
+**Hypothesis:** the total available stack was filled because they were too many threads.
 
 ## A fatal error occurred: Failed to connect to ESP32-S3: No serial data received.
 

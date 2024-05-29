@@ -1,4 +1,4 @@
-# Structure of the code
+# Multitasking
 
 ## Using multiple tasks
 
@@ -10,6 +10,21 @@ We use freertos to run multiple tasks in parallel.
 - what are queues and how to use them?
 - is there a max number of threads?
 - how to use both cores?
+
+## Tasks priorities
+
+https://www.freertos.org/RTOS-task-priority.html
+
+## Using both cores
+
+Assign tasks either to core 0 or 1.
+
+```cpp
+void taskRobotMove() {
+  xTaskCreatePinnedToCore(TaskRobotMove, "TaskRobotMove", 4096, NULL,
+                          3, NULL, 0);  // attached on core 0!!
+}
+```
 
 ## Links
 
