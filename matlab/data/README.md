@@ -130,7 +130,7 @@ Log the data the encoder for a given speed profile. All measurements were made o
 
 We want to analyse what the true wheel speed is depending on the duty cycle applied to the motor
 
-- speed (duty cycle) is a value between -256 and 255
+- command (duty cycle) is a value between -256 and 255
 - the actual motors speed is in rpm
 - robot: Algernon v1.1.0
 - motors 3 (left) and 4 (right)
@@ -142,8 +142,14 @@ We want to analyse what the true wheel speed is depending on the duty cycle appl
 - speed range: [0, 255]
 - speed step: 10
 
-### `wheelSpeedCalibration1.csv`
+### `wheelSpeedCalibration2.csv`
 
 - delay between speed changes: 2s
 - speed range: [-255, 255]
 - speed step: 5
+
+### `wheelSpeedCalibration3.csv`
+
+- delay between speed changes: 1s
+- speed range: [-255, 255]
+- speed step: 1

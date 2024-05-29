@@ -2,19 +2,21 @@
 clc; clear; clf;
 
 %% load data
-data = readtable('./data/wheelSpeedCalibration2.csv');
+data = readtable('./data/wheelSpeedCalibration3.csv');
 
 left = data.leftSpeedRpm;
 right = data.rightSpeedRpm;
 command = data.motorCommand;
 
 %% Compute regressions for speed
+% Remove point with speed abs value too large
+speedLim = 550; % rpm
 degree = 4;
 
 [pNegLeft, pPosLeft, leftFit] = findBestSpeedFit(command, left, degree);
 [pNegRight, pPosRight, rightFit] = findBestSpeedFit(command, right, degree);
 
-%% plot command VS speed
+%% plot speed VS command
 ms = 10;
 
 figure(1);
@@ -29,17 +31,18 @@ ylabel('Wheel speed [rpm]');
 legend('left', 'right', 'left polyfit', 'right polyfit', 'Location','southeast');
 grid on;
 
-%% Compute regressions for speed
+%% Compute regressions for commands
 degree = 4;
 
-[pNegLeft, pPosLeft,~] = findBestCommandFit(left, command, degree);
-[pNegRight, pPosRight,~] = findBestCommandFit(right, command, degree);
+[pNegLeft, pPosLeft,~] = findBestCommandFit(left, command, degree, speedLim);
+[pNegRight, pPosRight,~] = findBestCommandFit(right, command, degree, speedLim);
 
-speeds = -600:600;
+
+speeds = -700:700;
 finalLeftFit = getCommands(pNegLeft, pPosLeft, speeds);
 finalRightFit = getCommands(pNegRight, pPosRight, speeds);
 
-%% plot speed VS command
+%% plot command VS speed
 figure(2);
 plot(left, command, 'r.', 'MarkerSize', ms)
 hold on;
@@ -50,6 +53,8 @@ grid on;
 xlabel('Wheel speed [rpm]');
 ylabel('Motor command [-]');
 legend('left', 'right', 'left fit', 'right fit', 'Location','southeast');
+title(['Command VS speed with polynomial fit degree ' num2str(degree) ', model trained on speeds [-' ...
+        num2str(speedLim) ', ' num2str(speedLim) '] rpm' ])
 
 %% Functions to find regressions
 % speed VS command
@@ -76,9 +81,13 @@ commands = command(maxZero:end);
 fit = [negFit; middleFit; posFit];
 end
 
-function [pNeg, pPos, fit] = findBestCommandFit(speed, command, degree)
-% Find polynomial regressions of given degree for the three regions of the
-% data
+function [pNeg, pPos, fit] = findBestCommandFit(speed, command, degree, speedLim)
+% remove points out of speed range
+indices = find(abs(speed)<=speedLim);
+command = command(indices);
+speed = speed(indices);
+
+% Find regressions for the three regions of the data
 zeroIndices = find(speed == 0);
 minZero = zeroIndices(1);
 maxZero = zeroIndices(end);
