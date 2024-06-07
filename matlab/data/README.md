@@ -140,23 +140,23 @@ We want to analyse what the true wheel speed is depending on the duty cycle appl
 
 - delay between speed changes: 1s
 - speed range: [0, 255]
-- speed step: 10
+- command step: 10
 
 ### `wheelSpeedCalibration2.csv`
 
 - delay between speed changes: 2s
 - speed range: [-255, 255]
-- speed step: 5
+- command step: 5
 
 ### `wheelSpeedCalibration3.csv`
 
 - delay between speed changes: 1s
 - speed range: [-255, 255]
-- speed step: 1
+- command step: 1
 
 ## Wheel speed calibration
 
-Check wheter cpp and matlab yield to same result.
+Check whether cpp and matlab yield to same result.
 
 - command (duty cycle) is a value between -256 and 255
 - robot: Algernon v1.1.0
@@ -167,4 +167,18 @@ Check wheter cpp and matlab yield to same result.
 
 - delay between speed changes: 1s
 - speed range: [-255, 255]
-- speed step: 5
+- command step: 5
+
+## Test speed calibration
+
+Verify if desired RPM speed and actual motor speed is the same.
+
+- speed range: -550 -> 550 rpm
+- robot: Algernon v1.1.0
+- motors 3 (left) and 4 (right)
+- battery: LiPo battery 2S1P
+
+### `testSpeedCalibration1.csv`
+
+- delay between speed changes: 1s
+- speed step: 10 rpm

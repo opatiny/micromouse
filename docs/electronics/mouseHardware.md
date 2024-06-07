@@ -6,7 +6,7 @@
 - Manufacturer: Espressif
 - Flash: 8 Mb
 - RAM: 8 Mb
-- CPU freqency: up to 240MHz
+- CPU frequency: up to 240MHz
 - SPI clock frequency: max 80 MHz by default
 - Wireless: WiFi and BLuetooth
 - Link: https://www.mouser.de/ProductDetail/356-32S3DEVKTC1UN8R8
