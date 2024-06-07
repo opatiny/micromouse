@@ -24,7 +24,7 @@ n = vmax/p*60 % rpm
 omega = vmax/r
 
 % max acceleration -> the acceleration that we'd like to reach
-amax = 1.5*9.81; % m/s^2, wiki: max accel up to 2g
+amax = 0.5*9.81; % m/s^2, https://micromouseonline.com/micromouse-book/robot-dynamics/acceleration/
 alpha = amax/r
 
 %% Total inertia relative to the motors
@@ -63,6 +63,6 @@ Pmax_fr = omega*M_mot_max
 deltax = 0.5; % m
 vf = sqrt(2*a_max*deltax)
 
-omega_nom = 1000; % rpm, nominal motor speed
+n_nom = 1100; % rpm, nominal motor speed
 
-vlim = omega_nom*2*pi*r/60
+vlim = n_nom*2*pi*r/60
