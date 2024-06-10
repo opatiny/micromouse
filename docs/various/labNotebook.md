@@ -119,6 +119,11 @@
 
 ### 27 - 02
 
+- worked a bit on report intro
+
 ## June
 
 ### 03 - 09
+
+- work on motor speed calibration: convert a given speed in rpm to a command for the PWM
+- worked on report theory and hadware parts
