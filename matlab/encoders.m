@@ -4,7 +4,7 @@ clear; clc; close all;
 
 %% Variables
 cpr = 12; % -, counts per rotation
-n_nom_gb = 1100; % rpm, motor nominal speed after gearbox
+n = 600; % rpm, maximal motor speed used
 i_exact = 29.861; % -, gearbox ratio
 i = 30; % -
 r = 0.016; % m, wheel radius
@@ -23,7 +23,7 @@ angularStepDeg = 360/cprWheel % 1 degree
 
 %% Min delay betewen two counts of an encoder
 
-n_nom = n_nom_gb*i
+n_nom = n*i
 
 w_nom = n_nom *pi/30; % rad/s
 angularStepRad = deg2rad(angularStepDeg);
@@ -48,3 +48,15 @@ nbTurns = floor(maxValue./cprWheel)
 % 16 -> 91 rotations
 % 32 -> approx. 16 millions
 % 64 -> 2.56e16
+
+
+%% Speed precision
+
+dt = 0.01; % s
+nCounts = 1;
+
+omegaDegStep = nCounts*angularStepDeg/dt;
+
+% a variation of 1 in the nb of counts corresponds to very big change of
+% rpm speed!!
+nStep = omegaDegStep * 60 / 360

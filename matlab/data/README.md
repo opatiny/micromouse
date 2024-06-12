@@ -182,3 +182,17 @@ Verify if desired RPM speed and actual motor speed is the same.
 
 - delay between speed changes: 1s
 - speed step: 10 rpm
+
+## Test PID
+
+Check how the desired speed is reached by both wheels, using a PID regulator
+
+- robot: Algernon v1.1.0
+- motors 3 (left) and 4 (right)
+- battery: LiPo battery 2S1P
+
+## `testPid1.csv`
+
+- Kp: 0.020
+- Ki: 0.000
+- Kd: 0.010
