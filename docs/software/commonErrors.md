@@ -25,6 +25,10 @@ In my case migrating 2 threads to core 0 solved the issue.
 
 Happens when an integer is divided by zero somewhere in the code. The question is: how do we detect where that happens?
 
+Disable all tasks on by one until you find the one(s) responsible for the error. Dig into the functions until you find where the problematic division happens.
+
+### LoadProhibited
+
 ## A fatal error occurred: Failed to connect to ESP32-S3: No serial data received.
 
 The serial device is not detected.

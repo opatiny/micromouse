@@ -7,7 +7,7 @@
 	(title_block
 		(title "Algernon Micromouse PCB")
 		(date "2024-04-24")
-		(rev "v1.0.0")
+		(rev "v1.1.0")
 		(company "OTH Regensburg / HEIG-VD")
 	)
 	(lib_symbols
