@@ -21,6 +21,10 @@ In my case migrating 2 threads to core 0 solved the issue.
 
 **Hypothesis:** the total available stack was filled because they were too many threads.
 
+### IntegerDivideByZero
+
+Happens when an integer is divided by zero somewhere in the code. The question is: how do we detect where that happens?
+
 ## A fatal error occurred: Failed to connect to ESP32-S3: No serial data received.
 
 The serial device is not detected.

@@ -196,3 +196,31 @@ Check how the desired speed is reached by both wheels, using a PID regulator
 - Kp: 0.020
 - Ki: 0.000
 - Kd: 0.010
+
+Time in ms.
+
+## `testPid2.csv`
+
+Completely refactored odometry to fix speed issues. Odometry and PID loops have a delay of 10 ms.
+
+- Kp: 0.020
+- Ki: 0.001
+- Kd: 0.000
+
+Time in seconds.
+
+## `testPid3.csv`
+
+- Kp: 0.020
+- Ki: 0.000
+- Kd: 0.001
+
+Time in seconds.
+
+## `testPid3.csv`
+
+- Kp: 0.020
+- Ki: 0.002
+- Kd: 0.000
+
+Time in seconds.
