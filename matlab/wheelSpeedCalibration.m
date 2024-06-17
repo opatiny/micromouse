@@ -2,7 +2,7 @@
 clc; clear; clf;
 
 %% load data
-data = readtable('./data/wheelSpeedCalibration2.csv');
+data = readtable('./data/wheelSpeedCalibration5.csv');
 
 left = data.leftSpeedRpm;
 right = data.rightSpeedRpm;
@@ -36,7 +36,7 @@ grid on;
 function [pNeg, pPos, fit] = findBestSpeedFit(command, speed, degree)
 % Find polynomial regressions of given degree for the three regions of the
 % data
-zeroIndices = find(speed == 0);
+zeroIndices = find(abs(speed) < 25);
 minZero = zeroIndices(1)-1;
 maxZero = zeroIndices(end)+1;
 

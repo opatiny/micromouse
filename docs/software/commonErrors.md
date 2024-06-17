@@ -29,6 +29,10 @@ Disable all tasks on by one until you find the one(s) responsible for the error.
 
 ### LoadProhibited
 
+### Interrupt wdt timeout on CPU1
+
+Happens when interrupt subroutine take to long to execute, typically if some `Serial.print` are done inside of it...
+
 ## A fatal error occurred: Failed to connect to ESP32-S3: No serial data received.
 
 The serial device is not detected.

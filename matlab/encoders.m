@@ -22,6 +22,7 @@ distanceStep = p/cprWheel*1000 % approx 0.3 mm
 angularStepDeg = 360/cprWheel % 1 degree
 
 %% Min delay betewen two counts of an encoder
+n = 10
 
 n_nom = n*i
 

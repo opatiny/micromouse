@@ -154,7 +154,17 @@ We want to analyse what the true wheel speed is depending on the duty cycle appl
 - speed range: [-255, 255]
 - command step: 1
 
+### `wheelSpeedCalibration5.csv`
+
+- delay between speed changes: 1s
+- speed range: [-255, 255]
+- command step: 5
+
+Caution: in this case we use the new speed measurement X/dt and the odometry delay is 1ms
+
 ## Wheel speed calibration
+
+We use the same dataset types as for wheel speed calibration.
 
 Check whether cpp and matlab yield to same result.
 
@@ -163,11 +173,19 @@ Check whether cpp and matlab yield to same result.
 - motors 3 (left) and 4 (right)
 - battery: LiPo battery 2S1P
 
-### `wheelSpeedToCommand1.csv` and `polynoms1.csv`
+### `wheelSpeedCalibration4.csv` and `polynoms4.csv`
 
 - delay between speed changes: 1s
 - speed range: [-255, 255]
 - command step: 5
+
+### `wheelSpeedCalibration6.csv` and `polynoms6.csv`
+
+- delay between speed changes: 1s
+- speed range: [-255, 255]
+- command step: 5
+
+Caution: in this case we use the new speed measurement X/dt and the odometry delay is 1ms
 
 ## Test speed calibration
 
@@ -224,3 +242,46 @@ Time in seconds.
 - Kd: 0.000
 
 Time in seconds.
+
+## Compare speed measurement methods
+
+We measure the speed in 2 ways:
+
+1. divide number of counts from since last call by the time elapsed
+2. divide a known number of counts, always the same, by the time taken to move this nb of steps
+
+- robot: Algernon v1.1.0
+- motors 3 (left) and 4 (right)
+- battery: LiPo battery 2S1P
+
+### `compareSpeeds1.csv`
+
+- odometry task delay: 10ms
+
+```csv
+ pNegLeft, pPosLeft, pNegRight, pPosRight
+-0.0000000061, -0.0000000037, -0.0000000037, 0.0000000016
+-0.0000052032, 0.0000054147, -0.0000028143, -0.0000009649
+-0.0016165279, -0.0019280235, -0.0008025189, 0.0002857632
+-0.0617476981, 0.2247056010, 0.0270471843, 0.0791166413
+-42.7075095500, 74.9729712389, -45.3625414581, 45.1797983120
+```
+
+### `compareSpeeds2.csv`
+
+- odometry task delay: 1ms
+- same regressions as before
+- we see that the speed speed is really big for smaller speeds: variations of 167 rpm at a time
+
+Questions:
+
+- why is the low speed never zero??
+
+```csv
+ pNegLeft, pPosLeft, pNegRight, pPosRight
+-0.0000000061, -0.0000000037, -0.0000000037, 0.0000000016
+-0.0000052032, 0.0000054147, -0.0000028143, -0.0000009649
+-0.0016165279, -0.0019280235, -0.0008025189, 0.0002857632
+-0.0617476981, 0.2247056010, 0.0270471843, 0.0791166413
+-42.7075095500, 74.9729712389, -45.3625414581, 45.1797983120
+```

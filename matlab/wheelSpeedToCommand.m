@@ -3,17 +3,20 @@
 clc; clear; clf;
 
 %% variables
+datasetNb = 6;
+
 speeds = -700:700;
 
+
 %% load data
-data = readtable('./data/wheelSpeedToCommand1.csv');
+data = readtable(['./data/wheelSpeedCalibration' num2str(datasetNb) '.csv']);
 
 left = data.leftSpeedRpm;
 right = data.rightSpeedRpm;
 command = data.motorCommand;
 
 %% load cpp polynoms
-polynoms = readtable('./data/polynoms1.csv');
+polynoms = readtable(['./data/polynoms' num2str(datasetNb) '.csv']);
 pNegLeft = polynoms.pNegLeft
 pPosLeft = polynoms.pPosLeft
 pNegRight = polynoms.pNegRight
@@ -60,7 +63,9 @@ command = command(indices);
 speed = speed(indices);
 
 % Find regressions for the three regions of the data
-zeroIndices = find(speed == 0);
+speedZeroThreshold = 25;
+
+zeroIndices = find(abs(speed) < speedZeroThreshold);
 minZero = zeroIndices(1);
 maxZero = zeroIndices(end);
 
