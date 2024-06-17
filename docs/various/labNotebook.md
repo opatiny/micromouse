@@ -127,3 +127,35 @@
 
 - work on motor speed calibration: convert a given speed in rpm to a command for the PWM
 - worked on report theory and hadware parts
+
+### 10 - 16
+
+- worked on PID of the speeds of the two wheels in order to try to drive straight. Managed to have plots of the response of the controller that look relatively good. We have a problem with the speed measurement though, because it has very big steps -> not very precise
+- Called Chevallier and we discussed of a way to improve the speed. 2 possibilites:
+  - use timer and constant nb of steps. This will be more precise for low speeds
+- use the induced voltage of the motor, that is proportional to its speed -> we will need voltage dividers and ADCs
+- todo: speed vs induced voltage curve of the motors to determine the speed constant
+
+### 17 - 23
+
+Current state and goals until the end of the project?
+
+Current state
+
+- robot hardware works except for minor unimportant bugs
+- all elements work separately and can be controlled though the serial interface
+- PID on wheels speeds starts to work, robot moved straight for the first time
+
+**Objectives until the end of the project**
+
+1. implement the low speed measurement of the speed using a known nb of steps divided by delta t and compare both speeds
+2. test the motors: speed vs induced voltage plot and deduce speed constant
+3. try to measure motors speed through induced voltage
+4. **important**: PID on the robot speed (v and omega) and add the walls term in order to stay in the middle of a corridor
+5. wifi debug interface
+
+   - retrieve state in the web page
+   - be able to send commands to the robot to control it from the web page
+   - plot interesting things: distances, controller data (speeds, commands, target)
+
+6. write a good report
