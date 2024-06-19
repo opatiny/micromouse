@@ -11,7 +11,7 @@ The core panics which causes the device to reboot all of the time. This error is
 1. No `vTaskDelay` in the `while` loop: without a delay in the loop the hand can never be given to the other tasks, which causes the device to crash.
 2. Insufficient stack size of the task: If the tasks takes more memory than it was allocated it generate a stack overflow which crashes the device.
 
-### Double exception
+### `DoubleException`
 
 https://www.esp32.com/viewtopic.php?t=27538
 
@@ -21,19 +21,21 @@ In my case migrating 2 threads to core 0 solved the issue.
 
 **Hypothesis:** the total available stack was filled because they were too many threads.
 
-### IntegerDivideByZero
+### `IntegerDivideByZero`
 
 Happens when an integer is divided by zero somewhere in the code. The question is: how do we detect where that happens?
 
 Disable all tasks on by one until you find the one(s) responsible for the error. Dig into the functions until you find where the problematic division happens.
 
-### LoadProhibited
+### `LoadProhibited`
 
-### Interrupt wdt timeout on CPU1
+### `Interrupt wdt timeout on CPU1`
 
 Happens when interrupt subroutine take to long to execute, typically if some `Serial.print` are done inside of it...
 
-## A fatal error occurred: Failed to connect to ESP32-S3: No serial data received.
+## `E (4917) gpio: gpio_install_isr_service(450): GPIO isr service already installed`
+
+## `A fatal error occurred: Failed to connect to ESP32-S3: No serial data received.`
 
 The serial device is not detected.
 
@@ -50,7 +52,7 @@ monitor_speed = 115200
 upload_speed = 921600
 ```
 
-## E (4478) SPIFFS: mount failed, -10025
+## `E (4478) SPIFFS: mount failed, -10025`
 
 Issue on the espressif devkit. Probably because partition was never formatted. Try uploading the contents of the `data` folder on the MCU with
 
@@ -61,7 +63,3 @@ pio run --target uploadfs
 ## Links
 
 - espressif serial comm problems: https://forum.digikey.com/t/esp32-s3-devkitc-1u-cant-get-serial-monitor-to-work/28069/2
-
-```
-
-```

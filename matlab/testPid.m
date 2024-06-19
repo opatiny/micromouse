@@ -2,13 +2,15 @@
 clc; clear; clf;
 
 %% select dataset using number
-num = 5;
+num = 6;
 
 %% Kp, Kd and Ki for the different data sets
 pidParams = [0.02,0,0.01;
              0.02,0.001,0;
              0.02,0,0.001;
-             0.02,0.002,0];
+             0.02,0.002,0
+             0.02,0.002,0
+             0.015,0.003,0];
 
 %% Load data
 data = readtable(['./data/testPid' num2str(num) '.csv']);

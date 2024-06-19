@@ -153,9 +153,9 @@ Current state
 3. try to measure motors speed through induced voltage
 4. **important**: PID on the robot speed (v and omega) and add the walls term in order to stay in the middle of a corridor
 5. wifi debug interface
-
    - retrieve state in the web page
    - be able to send commands to the robot to control it from the web page
    - plot interesting things: distances, controller data (speeds, commands, target)
-
 6. write a good report
+
+Chevallier approved.

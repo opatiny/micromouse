@@ -243,6 +243,12 @@ Time in seconds.
 
 Time in seconds.
 
+## `testPid6.csv`
+
+- Kp: 0.015
+- Ki: 0.003
+- Kd: 0.000
+
 ## Compare speed measurement methods
 
 We measure the speed in 2 ways:
@@ -285,3 +291,14 @@ Questions:
 -0.0617476981, 0.2247056010, 0.0270471843, 0.0791166413
 -42.7075095500, 74.9729712389, -45.3625414581, 45.1797983120
 ```
+
+## Controller delay impact
+
+We have a delay in the `robotDriveStraight` function, that implements the speed controllers of the wheels. We vary this delay in order to see the impact on the step response of the controller. Ideally, we want to reduce this delay to the maximum, because delay in regulation loops lead to higher instability of the system.
+
+- target speed: 200 rpm
+- robot: Algernon v1.1.0
+- motors 3 (left)
+- battery: LiPo battery 2S1P
+
+Files: `controllerDelayImpactXXms.csv`
