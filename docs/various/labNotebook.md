@@ -159,3 +159,6 @@ Current state
 6. write a good report
 
 Chevallier approved.
+
+- implemented new speed X/dt -> better than before, can update speed every 1 ms instead of every 10ms
+- made wifi work for the first time in germany and managed to change serial params through it
