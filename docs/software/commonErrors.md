@@ -60,6 +60,12 @@ Issue on the espressif devkit. Probably because partition was never formatted. T
 pio run --target uploadfs
 ```
 
+## `ERROR: Too many messages queued`
+
+Happens when the MCU sends too many messages / too long messages too frequently and it can't keep up with the rate
+
+https://github.com/me-no-dev/ESPAsyncWebServer/issues/504
+
 ## Links
 
 - espressif serial comm problems: https://forum.digikey.com/t/esp32-s3-devkitc-1u-cant-get-serial-monitor-to-work/28069/2

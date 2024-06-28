@@ -162,3 +162,9 @@ Chevallier approved.
 
 - implemented new speed X/dt -> better than before, can update speed every 1 ms instead of every 10ms
 - made wifi work for the first time in germany and managed to change serial params through it
+
+### 24 - 30
+
+- started working fully on graphical interface
+  - export important data from robot and send them over wifi
+  - use react components to display the information

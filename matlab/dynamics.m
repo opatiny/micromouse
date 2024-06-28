@@ -21,4 +21,5 @@ omega_max = v_max/r % rad/sec
 
 omega_max_degSec = omega_max*180/pi
 
+% max rotational speed of the robot
 n_max = omega_max * 30/pi % rpm
