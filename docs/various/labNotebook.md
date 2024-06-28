@@ -168,3 +168,6 @@ Chevallier approved.
 - started working fully on graphical interface
   - export important data from robot and send them over wifi
   - use react components to display the information
+- managed to plot robot distances irl, there is a problem with the messages queue, sometimes big delays between two messages
+- plot the robot position in an x/y plane!
+- worked on robot speed control, where the regulation is made on v and omega of the robot
