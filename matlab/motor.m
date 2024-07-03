@@ -33,13 +33,13 @@ M = 0.15; % kg , total robot mass
 Jmot = 1e-7; % kgm^2 -> rotor inertia, approx 1gcm^2 (estimation random maxon motor)
 Jred = 0; % no gearbox
 i = 1; % - , gearbox reduction
-eta = 1; % gearbox efficiency
+eta = 0.9; % gearbox efficiency
 % wheel inertia estimation
 m_wheel = 0.003; % kg
 
 Jwheel = 1/2 * m_wheel * r^2; % approximate as full cylinder
 
-Jrtot = Jmot + Jred + 1/(eta*i^2)*(Jwheel + M*r^2/2)
+Jrtot = Jred + 1/(eta*i^2)*(Jwheel + M*r^2/2)
 
 %% Maximum torque
 Tfr = 0; % friction torque

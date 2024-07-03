@@ -1,4 +1,4 @@
-%% Function to convert speed in rpm to command
+%% Function to convert speed in rpm to command (forward kinematics)
 % we want to compare the matlab results and the cpp ones
 clc; clear; clf;
 
@@ -6,7 +6,6 @@ clc; clear; clf;
 datasetNb = 6;
 
 speeds = -700:700;
-
 
 %% load data
 data = readtable(['./data/wheelSpeedCalibration' num2str(datasetNb) '.csv']);
