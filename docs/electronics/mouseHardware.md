@@ -8,7 +8,7 @@
 - RAM: 8 Mb
 - CPU frequency: up to 240MHz
 - SPI clock frequency: max 80 MHz by default
-- Wireless: WiFi and BLuetooth
+- Wireless: WiFi and Bluetooth
 - Link: https://www.mouser.de/ProductDetail/356-32S3DEVKTC1UN8R8
 
 ## Motors
@@ -37,7 +37,7 @@
 - Reference: Magnetic Encoder Pair Kit with Side-Entry Connector for Micro Metal Gearmotors
 - Counts per revolution: 12 CPR
 - Input voltage: 2.7-18V
-- Connectors: 6-pin male JST SH-type
+- Connectors: 6-pin female JST SH-type
 - Link: https://www.pololu.com/product/4761
 
 ## Distance sensors
@@ -56,6 +56,8 @@
 - Manufacturer: InveSense
 - Communication: I2C
 - Features: 3 axis accelerometer and 3 axis gyroscope
+- Supply voltage: 2.4-3.5V
+- Board dimensions: 21x15.5 mm
 - Link: https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf
 
 ## Battery
