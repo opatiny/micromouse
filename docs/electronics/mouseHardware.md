@@ -28,7 +28,7 @@
 - Reference: DRV8833 Dual Motor Driver Carrier
 - Manufacturer: Polulu
 - Current: max 1.5 Arms output per motor
-- Operating voltage: 2.7 to 10.8 V
+- Operating voltage (motor): 2.7 to 10.8 V
 - Current control max frequency $f_{PWM}$: 50 kHz
 - Link: https://www.pololu.com/product/2130
 
@@ -68,7 +68,7 @@
 - Capacity: 1100 mAh
 - Configuration: 2S1P
 - Nominal voltage: 7.4 V
-- Maximum output current: 27 A
+- Maximum output continuous current: 27 A
 - Connector: XT60
 - Dimensions: 55 x 30 x 17mm
 - Link: https://www.reichelt.de/dk/en/li-po-battery-7-4-v-1100-mah-rd-xt-1100-s2-p336956.html?CCOUNTRY=449&LANGUAGE=en&&r=1
@@ -93,3 +93,7 @@
 - Manufacturer: Polulu
 - Tires material: Silicone
 - Link: https://www.pololu.com/product/1087
+
+## Other
+
+- schottky: NSR0320MW2T1G (20V, 1A)

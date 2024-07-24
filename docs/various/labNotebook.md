@@ -171,3 +171,22 @@ Chevallier approved.
 - managed to plot robot distances irl, there is a problem with the messages queue, sometimes big delays between two messages
 - plot the robot position in an x/y plane!
 - worked on robot speed control, where the regulation is made on v and omega of the robot
+
+## July
+
+### 01 - 07
+
+- continued with the graphical interface and the plot of the regulators
+- started working a lot on the report: wrote maze, mechanics and solutions chapters
+
+### 08 - 14
+
+Exams
+
+### 15 - 21
+
+Exams
+
+## 22 - 28
+
+- working full time on the report
