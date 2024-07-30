@@ -190,3 +190,10 @@ Exams
 ## 22 - 28
 
 - working full time on the report
+
+## 29 - 04
+
+- finished electronics part
+- enhanced and reorganised docs in the ms-software repo
+- made tests to plot motor speed VS voltage using a DC power supply
+- wrote abstract and aknowledgements
