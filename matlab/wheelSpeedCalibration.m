@@ -1,8 +1,11 @@
 %% Relationship between motor speed command and wheel speed in rpm
 clc; clear; clf;
 
+%% variables
+maxCommand = 255;
+
 %% load data
-data = readtable('./data/wheelSpeedCalibration5.csv');
+data = readtable('./data/wheelSpeedCalibration2.csv');
 
 left = data.leftSpeedRpm;
 right = data.rightSpeedRpm;
@@ -16,15 +19,17 @@ degree = 4;
 [pNegRight, pPosRight, rightFit] = findBestSpeedFit(command, right, degree);
 
 %% plot speed VS command
-ms = 10;
+
+dutyCycle = command/maxCommand*100;
+ms = 5;
 figure(1);
-plot(command, left, 'r.', 'MarkerSize', ms);
+plot(dutyCycle, left, 'ro', 'MarkerSize', ms);
 hold on;
-plot(command, right, 'b.', 'MarkerSize', ms);
-plot(command, leftFit,'r-')
-plot(command, rightFit, 'b-')
+plot(dutyCycle, right, 'bo', 'MarkerSize', ms);
+plot(dutyCycle, leftFit,'r-')
+plot(dutyCycle, rightFit, 'b-')
 hold off;
-xlabel('Motor command [-]');
+xlabel('Duty cycle [%]');
 ylabel('Wheel speed [rpm]');
 legend('left', 'right', 'left polyfit', 'right polyfit', 'Location','southeast');
 grid on;
