@@ -196,4 +196,8 @@ Exams
 - finished electronics part
 - enhanced and reorganised docs in the ms-software repo
 - made tests to plot motor speed VS voltage using a DC power supply
-- wrote abstract and aknowledgements
+- wrote abstract and acknowledgements
+- made a lot of progress on the debug interface: the commands and wheel speeds plots work
+- added the command box to submit commands through wifi
+- learned to build the code to put in on the micromouse
+- debug interface is pretty much finished
