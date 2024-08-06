@@ -1,29 +1,26 @@
-%% Compare methods of measuring sped
-clc; clear; clf;
+%% Compare methods of measuring speed
 
 %% load data
-data = readtable('./data/compareSpeeds3.csv');
+data = readtable('./data/compareSpeeds4.csv');
 
-speed = data.speed;
+time = (data.time-data.time(1))/1000000;
 leftHigh = data.leftHighSpeed;
 rightHigh = data.rightHighSpeed;
 
 leftLow = data.leftLowSpeed;
 rightLow = data.rightLowSpeed;
 
-limits = 550;
 
-model = -550:550;
 
 %% plot
 ms = 10;
-plot(speed, leftHigh, 'r.-', 'MarkerSize', ms); hold on;
-plot(speed, rightHigh, 'b.-', 'MarkerSize', ms);
-plot(speed, leftLow, 'ro-', 'MarkerSize', ms);
-plot(speed, rightLow, 'bo-', 'MarkerSize', ms);
-plot(model, model, '-')
+plot(time, leftHigh, 'b.-', 'MarkerSize', ms); hold on;
+plot(time, leftLow, 'ro-', 'MarkerSize', ms);
+%plot(time, rightHigh, 'b.-', 'MarkerSize', ms);
+%plot(time, rightLow, 'bo-', 'MarkerSize', ms);
 hold off;
 grid on;
-xlabel('Target speed [rpm]');
-ylabel('Wheel speeds [rpm]');
-legend('left dX/T', 'right dX/T','left X/dt', 'right X/dT', 'ideal response', 'Location', 'southeast');
+xlabel('Wheel speed [rpm]');
+ylabel('Time [s]');
+legend('left dX/T', 'left X/dt', 'right dX/T', 'right X/dT', 'Location', 'southeast');
+xlim([0 25])

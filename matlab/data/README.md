@@ -292,6 +292,12 @@ Questions:
 -42.7075095500, 74.9729712389, -45.3625414581, 45.1797983120
 ```
 
+### `compareSpeeds4.csv`
+
+- odometry task delay: 1ms
+- logging delay: 250 ms
+- both high speed and low speed are computed every 1ms
+
 ## Controller delay impact
 
 We have a delay in the `robotDriveStraight` function, that implements the speed controllers of the wheels. We vary this delay in order to see the impact on the step response of the controller. Ideally, we want to reduce this delay to the maximum, because delay in regulation loops lead to higher instability of the system.

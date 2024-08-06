@@ -14,3 +14,10 @@ The Polulu motors encoders are equipped with JST SH cables. Two of the 6 pins ar
 
 - http://www.mosaic-industries.com/embedded-systems/electronic-instrument-design-new-product-development/cables/ribbon-cable-current-rating
 - https://www.pololu.com/product/4763/specs
+
+## Non-linear motor speed VS PWM command
+
+Is probably caused by the driver!! Other people had very similar results
+
+- https://forum.pololu.com/t/nonlinear-relatioonship-between-motor-encoder-speed-and-pwm/20092/7
+- change the PWM frequency!!! https://forum.pololu.com/t/drv8835-non-linear-current-draw-vs-pwm-duty-cycle/8430/4 -> around 20kHz
