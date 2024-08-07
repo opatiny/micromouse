@@ -187,11 +187,11 @@ Exams
 
 Exams
 
-## 22 - 28
+### 22 - 28
 
 - working full time on the report
 
-## 29 - 04
+### 29 - 04
 
 - finished electronics part
 - enhanced and reorganised docs in the ms-software repo
@@ -201,3 +201,11 @@ Exams
 - added the command box to submit commands through wifi
 - learned to build the code to put in on the micromouse
 - debug interface is pretty much finished
+
+## August
+
+## 05 - 11
+
+- added schematics to theory chapter
+- worked on software chapter
+- enhanced serial menu and added `m` utilities

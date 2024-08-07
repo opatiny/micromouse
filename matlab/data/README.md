@@ -249,6 +249,12 @@ Time in seconds.
 - Ki: 0.003
 - Kd: 0.000
 
+## `testPid7.csv`
+
+- Kp: 0.060
+- Ki: 0.001
+- Kd: 0.000
+
 ## Compare speed measurement methods
 
 We measure the speed in 2 ways:
@@ -308,3 +314,11 @@ We have a delay in the `robotDriveStraight` function, that implements the speed 
 - battery: LiPo battery 2S1P
 
 Files: `controllerDelayImpactXXms.csv`
+
+## Analyse commands
+
+Goal: see how much the command is increased over time in order to achieve desired speed in givn time.
+
+## Max robot acceleration
+
+Measuring the true maximal acceleration of the robot.
