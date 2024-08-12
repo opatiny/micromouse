@@ -66,3 +66,13 @@ vf = sqrt(2*a_max*deltax)
 n_nom = 1100; % rpm, nominal motor speed
 
 vlim = n_nom*2*pi*r/60
+
+
+%% Distance for given v and a
+
+a = 1.5; % m/s^2
+v = 1.05; % m/s^2
+
+% vf^2-vi^2 = 2*a*delta x
+
+deltax = v/a/2

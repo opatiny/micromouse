@@ -1,4 +1,5 @@
 time, targetSpeed, leftSpeed, leftCommand, rightSpeed, rightCommand
+34745, 1200, 0.00, 36, 0.00, 36
 34747, 1200, 0.00, 72, 0.00, 72
 34749, 1200, 0.00, 108, 0.00, 108
 34751, 1200, 0.00, 144, 0.00, 144
@@ -49,3 +50,29 @@ time, targetSpeed, leftSpeed, leftCommand, rightSpeed, rightCommand
 34903, 1200, 616.14, 255, 596.30, 255
 34905, 1200, 613.87, 255, 617.28, 255
 34917, 1200, 608.27, 255, 610.50, 255
+
+
+
+Acceleration: 5.90
+Acceleration: 8.40
+Acceleration: 8.61
+Acceleration: 8.01
+Acceleration: 8.53
+Acceleration: 7.89
+Acceleration: 8.40
+Acceleration: 7.89
+Acceleration: 7.45
+Acceleration: 8.90
+Acceleration: 8.40
+Acceleration: 9.46
+Acceleration: 8.54
+Acceleration: 7.15
+Acceleration: 8.90
+Acceleration: 7.50
+Acceleration: 9.21
+Acceleration: 9.37
+Acceleration: 10.00
+Acceleration: 9.46
+Acceleration: 9.37
+Acceleration: 8.98
+Acceleration: 9.05

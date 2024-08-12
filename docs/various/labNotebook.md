@@ -209,3 +209,11 @@ Exams
 - added schematics to theory chapter
 - worked on software chapter
 - enhanced serial menu and added `m` utilities
+- finished results chapter
+- enhances repositories documentation
+- wrote conclusion chapter
+
+## 12 - 18
+
+- correct report after supervisor's feedback
+- printed thesis
