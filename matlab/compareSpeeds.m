@@ -20,7 +20,7 @@ plot(time, leftLow, 'ro-', 'MarkerSize', ms);
 %plot(time, rightLow, 'bo-', 'MarkerSize', ms);
 hold off;
 grid on;
-xlabel('Wheel speed [rpm]');
-ylabel('Time [s]');
-legend('left dX/T', 'left X/dt', 'right dX/T', 'right X/dT', 'Location', 'southeast');
+ylabel('Wheel speed [rpm]');
+xlabel('Time [s]');
+legend('left dc/T', 'left C/dt', 'right dc/T', 'right C/dT', 'Location', 'southeast');
 xlim([0 25])

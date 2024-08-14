@@ -2,7 +2,14 @@
 
 Main repository for my bachelor's thesis project.
 
-![wholeMouse](./docs/images/wholeMouse-edited.png)
+![wholeMouse](./docs/images/wholeMouse.png)
+
+## Related repositories
+
+The software fo this robot can be found in the two following repositories:
+
+- Software for the microcontroller: [opatiny/ms-software](https://github.com/opatiny/ms-software)
+- TypeScript code for the debug web page (is then built and uploaded on the MCU): [opatiny/ms-webpage](https://github.com/opatiny/ms-webpage)
 
 ## Abstract
 
