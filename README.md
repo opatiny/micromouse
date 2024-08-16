@@ -15,6 +15,10 @@ The software fo this robot can be found in the two following repositories:
 
 This project was inspired by the micromouse competitions, in which small autonomous maze-solving robots compete to solve an unknown maze in the shortest possible time. The main focus of the project was to design a micromouse from scratch, which implied electrical and mechanical design, as well as the manufacturing of our own custom PCB. A physical prototype of the robot was fully assembled and tested. The robot implements 5 ToF distance sensors, an accelerometer and two brushed DC motors with encoders. The microcontroller is an ESP32-S3, and a 2P1S LiPo battery is used as a power supply. On the software side, all of the sensors were tested independently and are functional. A basic odometry task was also implemented, which allows to track the robot's position, and speed regulation of the wheels was added. What is more, a remote debug interface using WiFi was programmed in order to visualize the robot's status in real time.
 
+## Report of the project
+
+The report of this thesis can be found in the `docs` folder of this repository: [bachelor-thesis-opatiny.pdf](./docs/bachelor-thesis-opatiny.pdf)
+
 ## Repository structure
 
 These are the main folders in this repository:
