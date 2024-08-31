@@ -1,5 +1,7 @@
 # Algernon: A custom micromouse robot
 
+YouTube demo of the project: https://youtu.be/nz4QlaSIkbY
+
 Main repository for my bachelor's thesis project.
 
 ![wholeMouse](./docs/images/wholeMouse.png)
