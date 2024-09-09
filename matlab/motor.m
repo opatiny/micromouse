@@ -6,7 +6,7 @@ g = 9.81; % kg*m/s^2
 
 %% Maximum motor speed
 % max desired speed and accel
-vmax = 2; % m/s -> typically 1.5-2 m/s
+vmax = 1.5; % m/s -> typically 1.5-2 m/s
 
 % in 2009 in japan, source : https://micromouseonline.com/micromouse-book/navigation/
 nbCells = 65;
@@ -39,7 +39,7 @@ m_wheel = 0.003; % kg
 
 Jwheel = 1/2 * m_wheel * r^2; % approximate as full cylinder
 
-Jrtot = Jred + 1/(eta*i^2)*(Jwheel + M*r^2/2)
+Jrtot = Jmot + Jred + 1/(eta*i^2)*(Jwheel + M*r^2/2)
 
 %% Maximum torque
 Tfr = 0; % friction torque
@@ -51,7 +51,7 @@ Pmec = omega * T_mot
 
 %% Maximal acceleration depending on friction coefficient
 % if the acceleration is bigger the wheels will slip
-mu0 = 0.8; % -
+mu0 = 0:0.1:1; % -
 N = 4; % -, total number of wheels (points touching the floor)
 M_mot_max = r*mu0*M*g/N
 alpha_max = M_mot_max/(eta*i*Jrtot); % rad/s^2
@@ -63,6 +63,12 @@ Pmax_fr = omega*M_mot_max
 deltax = 0.5; % m
 vf = sqrt(2*a_max*deltax)
 
-n_nom = 1100; % rpm, nominal motor speed
+n_nom = 840; % rpm, nominal motor speed
 
 vlim = n_nom*2*pi*r/60
+
+figure();
+plot(mu0,alpha_max);
+xlabel('Friction coefficient [-]');
+ylabel('Max. angular acceleration [rad/s^2]');
+grid on;

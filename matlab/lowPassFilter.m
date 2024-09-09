@@ -22,19 +22,32 @@ var02 = var(filt02)
 
 
 %% plot
+subplot(121);
 plot(time, speed,'.-');
 hold on;
 plot(time, filt02, '.-');
 plot(time, filt01, '.-');
 plot(time, filt005, '.-');
-
-
 hold off;
 grid on;
 xlabel('Time [s]');
 ylabel('Speed [rpm]');
 legend('original', '\alpha = 0.2', '\alpha = 0.1', '\alpha = 0.05');
 xlim([0 1.5]);
+
+subplot(122);
+plot(time, speed,'.-');
+hold on;
+plot(time, filt02, '.-');
+plot(time, filt01, '.-');
+plot(time, filt005, '.-');
+hold off;
+grid on;
+xlabel('Time [s]');
+ylabel('Speed [rpm]');
+legend('original', '\alpha = 0.2', '\alpha = 0.1', '\alpha = 0.05');
+xlim([0.4 0.65]);
+ylim([180 217])
 
 
 function filtered = filter(speed, alpha)

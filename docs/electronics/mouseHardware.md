@@ -9,6 +9,7 @@
 - CPU frequency: up to 240MHz
 - SPI clock frequency: max 80 MHz by default
 - Wireless: WiFi and Bluetooth
+- Board dimensions: 63 x 25 mm
 - Link: https://www.mouser.de/ProductDetail/356-32S3DEVKTC1UN8R8
 
 ## Motors
@@ -30,6 +31,7 @@
 - Current: max 1.5 Arms output per motor
 - Operating voltage (motor): 2.7 to 10.8 V
 - Current control max frequency $f_{PWM}$: 50 kHz
+- Board dimensions: 20 x 13 mm
 - Link: https://www.pololu.com/product/2130
 
 ## Encoders
