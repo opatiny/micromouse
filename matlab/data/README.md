@@ -249,6 +249,12 @@ Time in seconds.
 - Ki: 0.003
 - Kd: 0.000
 
+## `testPid7.csv`
+
+- Kp: 0.060
+- Ki: 0.001
+- Kd: 0.000
+
 ## Compare speed measurement methods
 
 We measure the speed in 2 ways:
@@ -292,6 +298,12 @@ Questions:
 -42.7075095500, 74.9729712389, -45.3625414581, 45.1797983120
 ```
 
+### `compareSpeeds4.csv`
+
+- odometry task delay: 1ms
+- logging delay: 250 ms
+- both high speed and low speed are computed every 1ms
+
 ## Controller delay impact
 
 We have a delay in the `robotDriveStraight` function, that implements the speed controllers of the wheels. We vary this delay in order to see the impact on the step response of the controller. Ideally, we want to reduce this delay to the maximum, because delay in regulation loops lead to higher instability of the system.
@@ -302,3 +314,11 @@ We have a delay in the `robotDriveStraight` function, that implements the speed 
 - battery: LiPo battery 2S1P
 
 Files: `controllerDelayImpactXXms.csv`
+
+## Analyse commands
+
+Goal: see how much the command is increased over time in order to achieve desired speed in givn time.
+
+## Max robot acceleration
+
+Measuring the true maximal acceleration of the robot.

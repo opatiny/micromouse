@@ -72,3 +72,12 @@ plot(mu0,alpha_max);
 xlabel('Friction coefficient [-]');
 ylabel('Max. angular acceleration [rad/s^2]');
 grid on;
+
+%% Distance for given v and a
+
+a = 1.5; % m/s^2
+v = 1.05; % m/s^2
+
+% vf^2-vi^2 = 2*a*delta x
+
+deltax = v/a/2

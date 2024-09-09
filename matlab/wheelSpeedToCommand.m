@@ -3,9 +3,15 @@
 clc; clear; clf;
 
 %% variables
-datasetNb = 6;
+datasetNb = 3;
 
 speeds = -700:700;
+
+CPP_POLY = 0;
+
+maxCommand = 255;
+toDutyCycle = @(command) command/maxCommand *100;
+
 
 %% load data
 data = readtable(['./data/wheelSpeedCalibration' num2str(datasetNb) '.csv']);
@@ -15,6 +21,7 @@ right = data.rightSpeedRpm;
 command = data.motorCommand;
 
 %% load cpp polynoms
+if CPP_POLY
 polynoms = readtable(['./data/polynoms' num2str(datasetNb) '.csv']);
 pNegLeft = polynoms.pNegLeft
 pPosLeft = polynoms.pPosLeft
@@ -23,6 +30,7 @@ pPosRight = polynoms.pPosRight
 
 cppLeftFit = getCommands(pNegLeft, pPosLeft, speeds);
 cppRightFit = getCommands(pNegRight, pPosRight, speeds);
+end
 
 %% Compute regressions for commands
 degree = 4;
@@ -38,21 +46,26 @@ matlabRightFit = getCommands(pNegRight, pPosRight, speeds);
 ms = 10;
 
 figure(2);
-plot(left, command, 'r.', 'MarkerSize', ms)
+plot(left, toDutyCycle(command), 'r.', 'MarkerSize', ms)
 hold on;
-plot(right,command, 'b.', 'MarkerSize', ms);
-plot(speeds, matlabLeftFit, 'r-');
-plot(speeds, matlabRightFit, 'b-');
-plot(speeds, cppLeftFit, 'r--');
-plot(speeds, cppRightFit, 'b--');
+plot(right, toDutyCycle(command), 'b.', 'MarkerSize', ms);
+plot(speeds, toDutyCycle(matlabLeftFit), 'r-');
+plot(speeds, toDutyCycle(matlabRightFit), 'b-');
+if CPP_POLY
+plot(speeds, toDutyCycle(cppLeftFit), 'r--');
+plot(speeds, toDutyCycle(cppRightFit), 'b--');
+end
+hold off;
 grid on;
 xlabel('Wheel speed [rpm]');
-ylabel('Motor command [-]');
+ylabel('Duty cycle [%]');
 legend('left', 'right', 'left fit matlab', 'right fit matlab',...
     'left fit cpp', 'right fit cpp', 'Location','southeast');
-title(['Command VS speed with polynomial fit degree ' num2str(degree) ', model trained on speeds [-' ...
+if 0
+title(['Duty cycle VS speed with polynomial fit degree ' num2str(degree) ', model trained on speeds [-' ...
         num2str(speedLim) ', ' num2str(speedLim) '] rpm' ])
-ylim([-270 270]);
+end
+ylim([-120 120]);
 %% functions
 
 function [pNeg, pPos, fit] = findBestCommandFit(speed, command, degree, speedLim)

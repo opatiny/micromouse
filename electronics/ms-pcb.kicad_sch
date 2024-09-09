@@ -10685,7 +10685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Green"
 			(at 35.56 176.53 0)
 			(effects
 				(font
@@ -12355,7 +12355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Yellow"
 			(at 17.78 176.53 0)
 			(effects
 				(font
@@ -12627,7 +12627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Blue"
 			(at 53.34 176.53 0)
 			(effects
 				(font
